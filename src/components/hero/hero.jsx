@@ -23,7 +23,7 @@ export function Hero() {
           className="link"
         >
           <button className="hero-button" type="button">
-            See my projects!
+            See my projects
           </button>
         </Link>
       </div>

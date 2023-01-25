@@ -1,0 +1,31 @@
+* {
+  text-align: center;
+}
+/* .line-span {
+  display: inline-block;
+  height: 2px;
+  width: 30%;
+  background-color: var(--text-black-color);
+} */
+
+.projects-container {
+  display: flex;
+  padding: 3rem;
+  color: white;
+  /* overflow-x: scroll; */
+  overflow: auto;
+  cursor: grab;
+}
+
+.card-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 350px;
+  width: 400px;
+  min-width: 250px;
+  padding: 1.5rem;
+  background-color: var(--text-blue-color);
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem black;
+}

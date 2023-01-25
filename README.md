@@ -10,7 +10,7 @@ In this portfolio, you can see my recent projects and have access to their live 
 
 ## Live Demo
 
-[Live](https://portfolio-giuseppe.herokuapp.com/)
+<!-- [Live](https://portfolio-giuseppe.herokuapp.com/) -->
 
 ## Authors
 

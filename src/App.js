@@ -7,9 +7,10 @@ import { Projects } from './components/projects/projects.jsx';
 function App() {
   return (
     <div className="App">
-      <LeftBar />
       <NavBarDiv />
       <Hero />
+
+      <LeftBar />
       <Projects />
     </div>
   );

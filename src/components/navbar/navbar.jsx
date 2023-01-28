@@ -12,7 +12,7 @@ export function NavBarDiv() {
       </div>
       <div className="second-half">
         <ul className="container-anchor">
-          <a href="#nav-bar-id" className="anchor-home">
+          <a href="#About" className="anchor-home">
             <li>Home</li>
           </a>
           <a href="#About" className="anchor-about">

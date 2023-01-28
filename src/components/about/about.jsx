@@ -7,21 +7,21 @@ export function About() {
       <div className="little-container-about-one">
         <p>
           Hello! My name is <strong>Juan Sanchez</strong>, I'm a musician that
-          started to love coding once I saw the good things we can do to others
-          with it. I was always sorounded by computers in my childhood and
-          teens, then I had to decide to study something between
-          <strong> music and system's engineering</strong>, I chose music, It
-          was a beautiful journey, I finished my 5 years career and worked on it
-          for 3 years teaching in schools.
+          started to love coding once I saw the good things we can do for others
+          with it. Computers in my childhood and teens always surrounded me,
+          then I had to decide to study something between
+          <strong> music and system engineering</strong>, I chose music, It was
+          a beautiful journey, I finished my 5 years career and worked on it for
+          3 years teaching in schools.
           <strong>
-            Now I have decided to change careers to achieve what is pending in
-            my journey.
+            Now I have decided to change careers to succed as a Web Developer!
           </strong>
         </p>
         <p>
           My goal right now is to gain experience and knowledge
           <strong> to help other people</strong> and make this world a better
-          place to live for everyone
+          place to live for everyone Here are a few technologies and languages
+          I've been using:
         </p>
         <p>
           Here are some few technologies and languages I&apos;ve been using:

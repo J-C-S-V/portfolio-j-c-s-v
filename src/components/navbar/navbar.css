@@ -23,6 +23,10 @@
   color: var(--text-black-color);
 }
 
+.container-anchor a {
+  color: var(--text-black-color);
+}
+
 .container-anchor a:hover {
   background-color: var(--hover-white-text);
   color: var(--text-blue-color);

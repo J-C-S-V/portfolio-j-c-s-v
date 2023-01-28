@@ -6,6 +6,7 @@ export function Footer() {
     <footer>
       <div className="main-container">
         <div className="contact-text1 contact-text">Contact</div>
+        <div className="line"></div>
         <div className="little-container">
           <div className="contact-text2 contact-text">
             If you want to hire me:
@@ -19,7 +20,7 @@ export function Footer() {
         </div>
 
         <div className="contact-text3 contact-text">
-          Designed and built by Juan Sanchez
+          Designed and built by <span>Juan Sanchez</span>
         </div>
       </div>
     </footer>

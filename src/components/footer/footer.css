@@ -1,8 +1,8 @@
 footer {
   display: grid;
   height: 100vh;
-  background-color: var(--white-bg-color2);
-  color: white;
+  background-color: var(--white-bg-color3);
+  color: black;
 }
 
 .main-container {
@@ -10,7 +10,8 @@ footer {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background-color: brown;
+  grid-template-rows: 5% 5% 35% auto;
+  /* background-color: brown; */
   margin: 20px;
   align-items: center;
   /* align-content: center; */
@@ -18,14 +19,22 @@ footer {
 
 .little-container {
   display: grid;
-
   border: 3px solid black;
   border-radius: 10px;
   padding: 50px 100px 50px;
+  margin-top: 30%;
 }
 .contact-text1 {
-  grid-row: 1 / span 2;
+  /* grid-row: 1 / span 2; */
+  text-align: left;
   /* background-color: yellow; */
+}
+
+.line {
+  width: 200px;
+  background-color: var(--white-bg-color);
+  height: 4px;
+  border-radius: 10px;
 }
 
 .contact-text2 {
@@ -33,14 +42,24 @@ footer {
 }
 
 .say-hello {
-  background-color: violet;
+  background-color: var(--text-blue-color);
   text-decoration: none;
   border: 3px solid black;
   border-radius: 10px;
+  color: var(--white-bg-color);
   /* padding: 55px; */
 }
 
 .contact-text3 {
-  /* background-color: aqua; */
-  /* margin-top: 90%; */
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 10%;
+}
+
+.contact-text3 span {
+  background-color: var(--text-blue-color);
+  font-weight: 400;
+  border-radius: 10px;
+  padding: 4px;
+  color: white;
 }

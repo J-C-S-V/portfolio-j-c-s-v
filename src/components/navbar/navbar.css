@@ -1,10 +1,14 @@
 .NavBarDiv {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-around;
   max-width: 100%;
   max-height: 100%;
   background-color: var(--white-bg-color2);
   align-items: center;
+  z-index: 1;
+
   /* border: 3px solid black; */
 }
 
@@ -13,7 +17,7 @@
   list-style-type: none;
   padding: 15px;
   border-radius: 5px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 .container-anchor a:visited {
   color: var(--text-black-color);

@@ -16,7 +16,7 @@ export function Hero() {
       </p>
 
       <button className="hero-button elements-inside-section" type="button">
-        See my projects
+        See my projects ⏬
       </button>
     </section>
   );

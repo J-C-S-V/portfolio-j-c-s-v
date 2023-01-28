@@ -2,7 +2,7 @@ import React from 'react';
 import './navbar.css';
 export function NavBarDiv() {
   return (
-    <div className="NavBarDiv">
+    <div className="NavBarDiv" id="nav-bar-id">
       <div className="one-half">
         <img
           className="pic-one"
@@ -12,7 +12,7 @@ export function NavBarDiv() {
       </div>
       <div className="second-half">
         <ul className="container-anchor">
-          <a href="#Home" className="anchor-home">
+          <a href="#nav-bar-id" className="anchor-home">
             <li>Home</li>
           </a>
           <a href="#About" className="anchor-about">

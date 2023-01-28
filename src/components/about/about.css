@@ -54,12 +54,12 @@
 }
 
 .about-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .about-list li {
   margin: 10px;
-  list-style: none;
   text-decoration-style: wavy;
   text-decoration: rgb(0, 0, 0);
 }

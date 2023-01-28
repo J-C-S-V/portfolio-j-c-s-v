@@ -1,0 +1,46 @@
+footer {
+  display: grid;
+  height: 100vh;
+  background-color: var(--white-bg-color2);
+  color: white;
+}
+
+.main-container {
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: brown;
+  margin: 20px;
+  align-items: center;
+  /* align-content: center; */
+}
+
+.little-container {
+  display: grid;
+
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 50px 100px 50px;
+}
+.contact-text1 {
+  grid-row: 1 / span 2;
+  /* background-color: yellow; */
+}
+
+.contact-text2 {
+  /* background-color: blue; */
+}
+
+.say-hello {
+  background-color: violet;
+  text-decoration: none;
+  border: 3px solid black;
+  border-radius: 10px;
+  /* padding: 55px; */
+}
+
+.contact-text3 {
+  /* background-color: aqua; */
+  /* margin-top: 90%; */
+}

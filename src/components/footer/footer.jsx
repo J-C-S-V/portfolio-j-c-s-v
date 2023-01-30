@@ -5,21 +5,20 @@ export function Footer() {
   return (
     <footer>
       <div className="main-container">
-        <div className="contact-text1 contact-text">Contact</div>
-        <div className="line"></div>
-        <div className="little-container">
+        <div className="little-container-one">
+          <div className="contact-text1 contact-text">Contact</div>
+          <div className="line"></div>
+        </div>
+        <div className="little-container-two">
           <div className="contact-text2 contact-text">
             If you want to hire me:
           </div>
-          <a
-            className="say-hello contact-text"
-            href="mailto:juansan1993@hotmail.com"
-          >
+          <a className="anchor-say-hello" href="mailto:juansan1993@hotmail.com">
             Say Hello 👋
           </a>
         </div>
 
-        <div className="contact-text3 contact-text">
+        <div className="little-container-three">
           Designed and built by <span>Juan Sanchez</span>
         </div>
       </div>

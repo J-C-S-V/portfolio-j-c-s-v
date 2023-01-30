@@ -1,47 +1,29 @@
 footer {
   display: grid;
-  height: 100vh;
+  height: 85vh;
   background-color: var(--white-bg-color3);
-  color: black;
+  color: var(--text-black-color);
 }
 
 .main-container {
   display: grid;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   text-align: center;
   grid-template-rows: 5% 5% 35% auto;
-  /* background-color: brown; */
+  background-color: brown;
   margin: 20px;
   align-items: center;
-  /* align-content: center; */
-}
-
-.little-container {
-  display: grid;
-  border: 3px solid black;
-  border-radius: 10px;
-  padding: 50px 100px 50px;
-  margin-top: 30%;
-}
-.contact-text1 {
-  /* grid-row: 1 / span 2; */
-  text-align: left;
-  /* background-color: yellow; */
 }
 
 .line {
   width: 500px;
-  background-color: black;
+  background-color: #444;
   height: 2px;
   border-radius: 10px;
 }
 
-.contact-text2 {
-  /* background-color: blue; */
-}
-
-.say-hello {
+.anchor-say-hello {
   background-color: var(--text-blue-color);
   text-decoration: none;
   border: 3px solid black;
@@ -50,18 +32,12 @@ footer {
   padding: 35px;
 }
 
-.say-hello:hover {
+.anchor-say-hello:hover {
   cursor: pointer;
   background-color: #00319b;
 }
 
-.contact-text3 {
-  font-weight: 100;
-  font-size: 20px;
-  margin-top: 10%;
-}
-
-.contact-text3 span {
+.little-container-three span {
   background-color: var(--text-blue-color);
   font-weight: 400;
   border-radius: 10px;

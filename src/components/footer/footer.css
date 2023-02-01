@@ -8,16 +8,13 @@ footer {
 .main-container {
   display: grid;
   flex-direction: column;
-  justify-content: center;
   text-align: center;
-  grid-template-rows: 5% 5% 35% auto;
-  background-color: brown;
   margin: 20px;
-  align-items: center;
+  /* background-color: brown; */
 }
 
 .line {
-  width: 500px;
+  width: 80%;
   background-color: #444;
   height: 2px;
   border-radius: 10px;
@@ -30,6 +27,7 @@ footer {
   border-radius: 10px;
   color: var(--white-bg-color);
   padding: 35px;
+  width: 200px;
 }
 
 .anchor-say-hello:hover {
@@ -43,4 +41,55 @@ footer {
   border-radius: 10px;
   padding: 4px;
   color: white;
+  width: 50%;
+  /* margin-right: ; */
+}
+
+.little-container-one {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+  /* background-color: yellow; */
+}
+
+.little-container-two {
+  display: grid;
+  grid-auto-flow: column;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  border: 4px solid var(--text-black-color);
+  /* background-color: rgb(54, 182, 45); */
+  animation-name: breath;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  border-radius: 10px;
+}
+
+@keyframes breath {
+  0% {
+    background-color: var(--white-bg-color2);
+  }
+  50% {
+    background-color: var(--white-bg-color3);
+  }
+  100% {
+    background-color: var(--white-bg-color2);
+  }
+}
+
+.little-container-three {
+  display: grid;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  font-size: 20px;
+  justify-items: end;
+  /* background-color: yellow; */
+}
+
+.little-containers {
+  /* border: 2px solid black; */
+  margin: 0 15%;
 }

@@ -5,11 +5,14 @@ export function Footer() {
   return (
     <footer>
       <div className="main-container">
-        <div className="little-container-one">
+        {/* First container */}
+        <div className="little-container-one little-containers">
           <div className="contact-text1 contact-text">Contact</div>
           <div className="line"></div>
         </div>
-        <div className="little-container-two">
+
+        {/* Second container */}
+        <div className="little-container-two little-containers">
           <div className="contact-text2 contact-text">
             If you want to hire me:
           </div>
@@ -18,7 +21,8 @@ export function Footer() {
           </a>
         </div>
 
-        <div className="little-container-three">
+        {/* Third container */}
+        <div className="little-container-three little-containers">
           Designed and built by <span>Juan Sanchez</span>
         </div>
       </div>

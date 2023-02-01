@@ -1,44 +1,19 @@
 .main-container-about {
   display: grid;
   grid-template-columns: 65% 35%;
-  /* width: 100%; */
-  /* height: 100vh; */
-  /* background-color: brown; */
   margin: 100px 200px 200px;
-  background-color: rgb(131, 129, 129);
+  background-color: rgb(190, 190, 190);
   border-radius: 10px;
+  min-width: 500px;
 }
-
-/* 
-.little-container-about {
-  background-color: yellow;
-} */
-
-/* .two {
-  background-color: yellow;
-  border: 2px solid black;
-  grid-column: 1 / 2;
-}
-
-.three {
-  background-color: yellow;
-  border: 2px solid black;
-  grid-column: 1 / 2;
-} */
 
 .img-about {
-  width: 300px;
-  height: 300px;
+  min-height: 20%;
+  max-width: 90%;
   margin: auto auto;
   border-radius: 50%;
-  border: 5px solid rgb(131, 129, 129);
+  /* border: 5px solid #444; */
 }
-
-/* .four {
-  background-color: yellow;
-  border: 2px solid black;
-  grid-column: 1 / 2;
-} */
 
 .little-container-about-one {
   word-spacing: 3px;
@@ -46,8 +21,6 @@
   background-color: var(--white-bg-color3);
   border-radius: 10px;
   box-shadow: 50 50 50;
-
-  /* border: 2px solid black; */
 }
 
 .little-container-about-one p {
@@ -62,6 +35,12 @@
 
 .about-list li {
   margin: 10px;
-  text-decoration-style: wavy;
-  text-decoration: rgb(0, 0, 0);
+}
+
+.little-container-about-one strong {
+  color: var(--text-blue-color);
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
 }

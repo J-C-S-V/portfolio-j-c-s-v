@@ -15,7 +15,8 @@ footer {
 
 .line {
   width: 80%;
-  background-color: #444;
+  background-color: var(--text-blue-color);
+
   height: 2px;
   border-radius: 10px;
 }

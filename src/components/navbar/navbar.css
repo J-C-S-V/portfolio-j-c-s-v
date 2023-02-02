@@ -17,7 +17,6 @@
   list-style-type: none;
   padding: 15px;
   border-radius: 5px;
-  /* margin-right: 10px; */
 }
 .container-anchor a:visited {
   color: var(--text-black-color);
@@ -39,8 +38,8 @@
 }
 
 .pic-one {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   border: solid 3px rgb(131, 129, 129);
 }

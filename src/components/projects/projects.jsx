@@ -52,21 +52,3 @@ export function Projects() {
     // <!-- image slider end -->
   );
 }
-
-// export function Projects() {
-//   return (
-//     <section className="projects-container">
-//       <article className="card-container">
-//         <header className="card-header">
-//           <img
-//             src={require('../../images/profile_pic1.jpg')}
-//             alt="Snake game"
-//           />
-//           <h2>Snake game</h2>
-//         </header>
-//         <div>illo id quaerat aperiam dolorum temporibus fugit quo?</div>
-//         <div>Technologies</div>
-//       </article>
-//     </section>
-//   );
-// }

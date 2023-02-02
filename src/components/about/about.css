@@ -1,7 +1,7 @@
 .main-container-about {
   display: grid;
   grid-template-columns: 65% 35%;
-  margin: 100px 200px 200px;
+  margin: 50px 200px 200px;
   background-color: rgb(190, 190, 190);
   border-radius: 10px;
   min-width: 500px;
@@ -43,4 +43,19 @@
 }
 
 @media only screen and (max-width: 767px) {
+}
+
+.about-text {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.about-line {
+  width: 80%;
+  background-color: var(--text-blue-color);
+  height: 2px;
+  border-radius: 10px;
 }

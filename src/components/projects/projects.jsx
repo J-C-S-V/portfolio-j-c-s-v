@@ -1,5 +1,6 @@
 import React from 'react';
 import './projects.css';
+import { AiFillGithub } from 'react-icons/ai';
 
 export function Projects() {
   return (
@@ -16,15 +17,121 @@ export function Projects() {
         {/* <!-- slide images start --> */}
         <div className="slide first">
           <img src={require('../../images/1.jpg')} alt="" id="one" />
+
+          {/* <!-- slide images bottom start--> */}
+          <div className="slide-image-bottom">
+            <h1>Clicks counter</h1>
+            <p>
+              A click counter built with React tracks and displays the number of
+              clicks on a button. It increments the count each time the button
+              is clicked and updates the display.
+            </p>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="slide-image-bottom-anchor"
+              href="https://www.facebook.com/login.php?next=https%3A%2F%2Fbusiness.facebook.com%2Flatest%2Fcomposer%3Fasset_id%3D102067249322682%26nav_ref%3Daymt_ig_web_sso_ig_login_upsell%26ref%3Dbiz_web_ftux_create_post_action%26context_ref%3DHOME#_"
+            >
+              <AiFillGithub className="slide-image-bottom-icon" />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="slide-image-bottom-live"
+              href="https://www.google.com"
+            >
+              <div className="slide-image-bottom-live-div">Live</div>
+            </a>
+          </div>
+          {/* <!-- slide images bottom end--> */}
         </div>
         <div className="slide">
           <img src={require('../../images/2.jpg')} alt="" id="two" />
+
+          {/* <!-- slide images bottom start--> */}
+          <div className="slide-image-bottom">
+            <h1>Clicks counter</h1>
+            <p>
+              A click counter built with React tracks and displays the number of
+              clicks on a button. It increments the count each time the button
+              is clicked and updates the display.
+            </p>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="slide-image-bottom-anchor"
+              href="https://www.facebook.com/login.php?next=https%3A%2F%2Fbusiness.facebook.com%2Flatest%2Fcomposer%3Fasset_id%3D102067249322682%26nav_ref%3Daymt_ig_web_sso_ig_login_upsell%26ref%3Dbiz_web_ftux_create_post_action%26context_ref%3DHOME#_"
+            >
+              <AiFillGithub className="slide-image-bottom-icon" />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="slide-image-bottom-live"
+              href="https://www.google.com"
+            >
+              <div className="slide-image-bottom-live-div">Live</div>
+            </a>
+          </div>
+          {/* <!-- slide images bottom end--> */}
         </div>
         <div className="slide">
           <img src={require('../../images/3.jpg')} alt="" id="three" />
+          {/* <!-- slide images bottom start--> */}
+          <div className="slide-image-bottom">
+            <h1>Clicks counter</h1>
+            <p>
+              A click counter built with React tracks and displays the number of
+              clicks on a button. It increments the count each time the button
+              is clicked and updates the display.
+            </p>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="slide-image-bottom-anchor"
+              href="https://www.facebook.com/login.php?next=https%3A%2F%2Fbusiness.facebook.com%2Flatest%2Fcomposer%3Fasset_id%3D102067249322682%26nav_ref%3Daymt_ig_web_sso_ig_login_upsell%26ref%3Dbiz_web_ftux_create_post_action%26context_ref%3DHOME#_"
+            >
+              <AiFillGithub className="slide-image-bottom-icon" />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="slide-image-bottom-live"
+              href="https://www.google.com"
+            >
+              <div className="slide-image-bottom-live-div">Live</div>
+            </a>
+          </div>
+          {/* <!-- slide images bottom end--> */}
         </div>
         <div className="slide">
           <img src={require('../../images/4.jpg')} alt="" id="four" />
+          {/* <!-- slide images bottom start--> */}
+          <div className="slide-image-bottom">
+            <h1>Clicks counter</h1>
+            <p>
+              A click counter built with React tracks and displays the number of
+              clicks on a button. It increments the count each time the button
+              is clicked and updates the display.
+            </p>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="slide-image-bottom-anchor"
+              href="https://www.facebook.com/login.php?next=https%3A%2F%2Fbusiness.facebook.com%2Flatest%2Fcomposer%3Fasset_id%3D102067249322682%26nav_ref%3Daymt_ig_web_sso_ig_login_upsell%26ref%3Dbiz_web_ftux_create_post_action%26context_ref%3DHOME#_"
+            >
+              <AiFillGithub className="slide-image-bottom-icon" />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="slide-image-bottom-live"
+              href="https://www.google.com"
+            >
+              <div className="slide-image-bottom-live-div">Live</div>
+            </a>
+          </div>
+          {/* <!-- slide images bottom end--> */}
         </div>
         {/* <!-- slide images end --> */}
 

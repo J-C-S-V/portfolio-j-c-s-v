@@ -58,6 +58,6 @@
 .about-line {
   width: 90%;
   background-color: var(--text-blue-color);
-  height: 2px;
+  height: 1px;
   border-radius: 10px;
 }

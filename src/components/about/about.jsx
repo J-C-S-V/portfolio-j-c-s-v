@@ -4,10 +4,12 @@ import './about.css';
 export function About() {
   return (
     <div className="big-div">
+      {/* About text container */}
       <div className="about-text">
         <div className="about-text2">About</div>
         <div className="about-line"></div>
       </div>
+      {/* Main container */}
       <div className="main-container-about">
         {/* Left container start*/}
         <div className="little-container-about-one">

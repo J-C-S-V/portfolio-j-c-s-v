@@ -48,13 +48,15 @@
 .about-text {
   display: grid;
   grid-auto-flow: column;
+  grid-template-columns: 20% 80%;
   align-items: center;
-  background-color: yellow;
-  border: 1px solid black;
+  margin: 100px 20% 0px;
+  /* background-color: yellow;
+  border: 1px solid black; */
 }
 
 .about-line {
-  width: 80%;
+  width: 90%;
   background-color: var(--text-blue-color);
   height: 2px;
   border-radius: 10px;

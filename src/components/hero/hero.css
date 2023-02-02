@@ -8,8 +8,8 @@ section {
   display: grid;
   margin: 100px 25% auto;
   text-align: center;
-  /* border: 3px solid black; */
-  /* background-color: yellow; */
+  border: 3px solid black;
+  background-color: yellow;
 }
 
 .hero-div {
@@ -24,7 +24,7 @@ section {
 .line-hero {
   width: 100%;
   background-color: var(--text-blue-color);
-  height: 2px;
+  height: 1px;
   border-radius: 10px;
 }
 

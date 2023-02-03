@@ -6,7 +6,16 @@
   border-radius: 10px;
   min-width: 500px;
 }
-
+.about-text {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+  margin: 100px 20% -100px;
+  height: 220px;
+  /* border: 1px solid black; */
+  /* background-color: yellow; */
+}
 .img-about {
   min-height: 20%;
   max-width: 90%;
@@ -14,7 +23,6 @@
   border-radius: 50%;
   /* border: 5px solid #444; */
 }
-
 .little-container-about-one {
   word-spacing: 3px;
   padding: 50px;
@@ -22,39 +30,23 @@
   border-radius: 10px;
   box-shadow: 50 50 50;
 }
-
 .little-container-about-one p {
   font-size: 20px;
   margin: 40px auto;
 }
-
 .about-list {
   display: grid;
   grid-template-columns: auto auto;
 }
-
 .about-list li {
   margin: 10px;
 }
-
 .little-container-about-one strong {
   color: var(--text-blue-color);
   font-size: 20px;
 }
-
 @media only screen and (max-width: 767px) {
 }
-
-.about-text {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: 20% 80%;
-  align-items: center;
-  margin: 100px 20% 0px;
-  /* background-color: yellow;
-  border: 1px solid black; */
-}
-
 .about-line {
   width: 90%;
   background-color: var(--text-blue-color);

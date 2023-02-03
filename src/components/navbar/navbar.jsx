@@ -13,13 +13,13 @@ export function NavBarDiv() {
       <div className="second-half">
         <ul className="container-anchor">
           <li>
-            <a href="#jump-hero" className="anchor-home">
+            <a href="#jump-home" className="anchor-home">
               Home
             </a>
           </li>
 
           <li>
-            <a href="#Contact" className="anchor-projects">
+            <a href="#jump-projects" className="anchor-projects">
               Projects
             </a>
           </li>

@@ -28,14 +28,17 @@
   font-weight: bold;
   /* background-color: aqua; */
 }
-
+.skills-list a {
+  background-color: var(--text-blue-color-hard);
+  padding: 5px;
+  border-radius: 10px;
+}
 .skills-list a:hover {
   border-radius: 10px;
   background-color: cornflowerblue;
   transition: 0.4s;
   cursor: pointer;
 }
-
 .skills-list li a:visited {
-  color: var(--text-blue-color-hard);
+  color: var(--white-bg-color);
 }

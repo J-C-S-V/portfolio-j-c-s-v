@@ -9,7 +9,7 @@ import { Skills } from './components/skills/skills.jsx';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="jump-home">
       <NavBarDiv />
       <Hero />
       <Projects />

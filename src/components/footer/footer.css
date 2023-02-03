@@ -4,7 +4,6 @@ footer {
   background-color: var(--white-bg-color3);
   color: var(--text-black-color);
 }
-
 .main-container {
   display: grid;
   flex-direction: column;
@@ -12,7 +11,6 @@ footer {
   margin: 20px;
   /* background-color: brown; */
 }
-
 .line {
   width: 80%;
   background-color: var(--text-blue-color);
@@ -20,7 +18,6 @@ footer {
   height: 1px;
   border-radius: 10px;
 }
-
 .anchor-say-hello {
   background-color: var(--text-blue-color);
   text-decoration: none;
@@ -30,14 +27,12 @@ footer {
   padding: 35px;
   width: 200px;
 }
-
 .anchor-say-hello:hover {
   cursor: pointer;
   transition: 0.4s;
 
   background-color: #00319b;
 }
-
 .little-container-three span {
   background-color: var(--text-blue-color);
   font-weight: 400;
@@ -47,7 +42,6 @@ footer {
   width: 50%;
   /* margin-right: ; */
 }
-
 .little-container-one {
   display: grid;
   grid-auto-flow: column;
@@ -55,7 +49,6 @@ footer {
   align-items: center;
   /* background-color: yellow; */
 }
-
 .little-container-two {
   display: grid;
   grid-auto-flow: column;
@@ -69,7 +62,6 @@ footer {
   animation-iteration-count: infinite;
   border-radius: 10px;
 }
-
 @keyframes breath {
   0% {
     background-color: var(--white-bg-color2);
@@ -81,7 +73,6 @@ footer {
     background-color: var(--white-bg-color2);
   }
 }
-
 .little-container-three {
   display: grid;
   display: grid;
@@ -91,7 +82,6 @@ footer {
   justify-items: end;
   /* background-color: yellow; */
 }
-
 .little-containers {
   /* border: 2px solid black; */
   margin: 0 15%;

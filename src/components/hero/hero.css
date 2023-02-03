@@ -3,15 +3,13 @@
     width: 320px;
   }
 } */
-
 section {
   display: grid;
   margin: 100px 25% auto;
   text-align: center;
-  /* border: 3px solid black;
-  background-color: yellow; */
+  /* border: 3px solid black; */
+  /* background-color: yellow; */
 }
-
 .hero-div {
   display: grid;
   grid-auto-flow: column;
@@ -21,33 +19,21 @@ section {
   height: 220px;
   /* background-color: tomato; */
 }
-
-.line-hero {
-  width: 100%;
-  background-color: var(--text-blue-color);
-  height: 1px;
-  border-radius: 10px;
-}
-
 .elements-inside-section {
   margin: 20px auto;
 }
-
 .hero-name {
   color: var(--text-blue-color);
   font-size: 2.5rem;
 }
-
 .hero-greeting {
   margin-left: 20px;
   text-align: left;
   font-size: 0.8rem;
 }
-
 .hero-name {
   margin-left: 45px;
 }
-
 .hero-title span {
   color: var(--text-blue-color);
   padding: 3px;

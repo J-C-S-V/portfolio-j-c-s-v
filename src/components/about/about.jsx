@@ -30,17 +30,6 @@ export function About() {
             <strong> to help other people</strong> and make this world a better
             place to live for everyone.
           </p>
-          <p>
-            Here are some few technologies and languages I&apos;ve been using:
-          </p>
-          <ul className="about-list">
-            <li>HTML</li>
-            <li>Javascript</li>
-            <li>Reactjs</li>
-            <li>CSS3</li>
-            <li>Git/GitHub</li>
-            <li>VSCode</li>
-          </ul>
         </div>
 
         {/* Photo container */}

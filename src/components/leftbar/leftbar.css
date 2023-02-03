@@ -18,6 +18,8 @@
 }
 
 .left-bar a:hover {
+  transition: 0.4s;
+
   background-color: rgb(181, 172, 190);
   border: rgb(250, 248, 248);
   border-radius: 10px;

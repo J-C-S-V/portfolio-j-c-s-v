@@ -8,42 +8,40 @@
   background-color: var(--white-bg-color2);
   align-items: center;
   z-index: 1;
-
   /* border: 3px solid black; */
 }
-
 .container-anchor a {
-  text-decoration: none;
-  list-style-type: none;
   padding: 15px;
   border-radius: 5px;
+}
+
+.container-anchor li {
+  list-style-type: none;
 }
 .container-anchor a:visited {
   color: var(--text-black-color);
 }
-
 .container-anchor a {
   color: var(--text-black-color);
 }
-
 .container-anchor a:hover {
+  transition: 0.4s;
   background-color: var(--hover-white-text);
   color: var(--text-blue-color);
 }
-
 .container-anchor {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
-
 .pic-one {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   border: solid 3px rgb(131, 129, 129);
 }
-
 .pic-one:hover {
+  transition: 0.4s;
+
   cursor: pointer;
 }

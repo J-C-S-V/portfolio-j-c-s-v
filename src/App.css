@@ -6,22 +6,22 @@
   padding: 0;
   font-size: 25px;
 }
-
 :root {
   --white-bg-color: #ffffff;
   --white-bg-color2: rgb(150, 150, 150);
   --white-bg-color3: rgb(233, 233, 233);
   --text-blue-color-hard: #00319b;
-
   --text-blue-color: #003fc7;
   --text-blue-color-soft: #446ec8;
   --text-black-color: #2b353f;
   --hover-white-text: rgb(227, 227, 227);
 }
-
 body {
   background-color: var(--main-bg-color);
   color: var(--text-black-color);
+}
+a {
+  text-decoration: none;
 }
 
 /* .App {

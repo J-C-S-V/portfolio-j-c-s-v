@@ -12,18 +12,27 @@ export function NavBarDiv() {
       </div>
       <div className="second-half">
         <ul className="container-anchor">
-          <a href="#About" className="anchor-home">
-            <li>Home</li>
-          </a>
-          <a href="#About" className="anchor-about">
-            <li>About</li>
-          </a>
-          <a href="#Projects" className="anchor-projects">
-            <li>Projects</li>
-          </a>
-          <a href="#Contact" className="anchor-contact">
-            <li>Contact</li>
-          </a>
+          <li>
+            <a href="#Contact" className="anchor-home">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="#Contact" className="anchor-projects">
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="#big-div" className="anchor-about">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#Contact" className="anchor-contact">
+              Contact
+            </a>
+          </li>
         </ul>
       </div>
     </div>

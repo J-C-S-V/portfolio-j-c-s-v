@@ -5,6 +5,7 @@ import { LeftBar } from './components/leftbar/leftbar.jsx';
 import { Projects } from './components/projects/projects.jsx';
 import { Footer } from './components/footer/footer.jsx';
 import { About } from './components/about/about.jsx';
+import { Skills } from './components/skills/skills.jsx';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Projects />
       <About />
+      <Skills />
       <Footer />
       <LeftBar />
     </div>

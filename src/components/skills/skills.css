@@ -1,0 +1,41 @@
+.skills-main-container {
+  display: grid;
+  margin: 10% 25%;
+  grid-template-rows: 1fr 1fr;
+  background-image: url('https://img.freepik.com/vector-gratis/coleccion-iconos-dibujados-mano-negocios_1133-343.jpg?w=740&t=st=1675379002~exp=1675379602~hmac=b247b5c4f45f09a5af9375ac6b770a76719e2fe5c3f37c21469e0e02298e338e');
+  /* background-color: tomato; */
+}
+.skills-heading {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  align-items: center;
+  height: 30px;
+  width: 700px;
+  /* background-color: yellow; */
+}
+.skills-line {
+  height: 1px;
+  width: 80%;
+  background-color: var(--text-blue-color);
+}
+.skills-list {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+  color: var(--text-blue-color);
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  /* background-color: aqua; */
+}
+
+.skills-list a:hover {
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.skills-list li a:visited {
+  color: var(--text-blue-color-hard);
+}

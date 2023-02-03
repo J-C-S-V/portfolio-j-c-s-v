@@ -3,7 +3,7 @@ import './hero.css';
 
 export function Hero() {
   return (
-    <section>
+    <section id="jump-hero">
       <p className="hero-greeting elements-inside-section">Hello, my name is</p>
       <h1 className="hero-name elements-inside-section">Juan Sanchez</h1>
       <h2 className="hero-title elements-inside-section">

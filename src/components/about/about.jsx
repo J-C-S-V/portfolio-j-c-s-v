@@ -3,7 +3,7 @@ import './about.css';
 
 export function About() {
   return (
-    <div className="big-div">
+    <div className="big-div" id="jump-about">
       {/* About text container */}
       <div className="about-text">
         <div className="about-text2">About</div>

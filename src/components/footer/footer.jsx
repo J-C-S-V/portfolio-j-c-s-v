@@ -4,7 +4,7 @@ import './footer.css';
 export function Footer() {
   return (
     <footer>
-      <div className="main-container">
+      <div className="main-container" id="jump-contact">
         {/* First container */}
         <div className="little-container-one little-containers">
           <div className="contact-text1 contact-text">Contact</div>

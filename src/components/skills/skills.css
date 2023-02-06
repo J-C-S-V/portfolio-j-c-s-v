@@ -52,3 +52,17 @@
 .skills-list li a:visited {
   color: var(--white-bg-color);
 }
+
+li svg:hover {
+  animation: App-logo-spin 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes App-logo-spin {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.4);
+  }
+}

@@ -5,56 +5,19 @@ import './projects.css';
 export function Projects() {
   return (
     <section class="card-list">
-      {/* 
-First card
-
-
-
-
-
- */}
-
       <article class="card">
         <header class="card-header">
           <h2>Rock paper scissors</h2>
         </header>
-        <a href="#">
-          <img src="" alt="" />
+        <a target="_bla" href="https://luxury-swan-136d4f.netlify.app/">
+          <img
+            className="img-cards"
+            src={require('../../images/rock_paper_scissors_img.png')}
+            alt="snake-game"
+          />
         </a>
-        <div class="tags">
-          <a href="#">html</a>
-          <a href="#">css</a>
-          <a href="#">JS</a>
-        </div>
-      </article>
-
-      {/* 
-
-
-
-
-
-
-
- */}
-
-      <article class="card">
-        <header class="card-header">
-          <p>Sep 11th 2020</p>
-          <h2>Rock paper scissors</h2>
-        </header>
-
-        <div class="card-author">
-          <a class="author-avatar" href="#">
-            <img src="avatar.png" />
-          </a>
-
-          <div class="author-name">
-            <div class="author-name-prefix">Author</div>
-            Jeff Delaney
-          </div>
-        </div>
-        <div class="tags">
+        <div className="technologies">Technologies</div>
+        <div className="tags">
           <a href="#">html</a>
           <a href="#">css</a>
           <a href="#">JS</a>
@@ -63,44 +26,54 @@ First card
 
       <article class="card">
         <header class="card-header">
-          <p>Sep 11th 2020</p>
-          <h2>Rock paper scissors</h2>
+          <h2>Snake</h2>
         </header>
-
-        <div class="card-author">
-          <a class="author-avatar" href="#">
-            <img src="avatar.png" />
-          </a>
-
-          <div class="author-name">
-            <div class="author-name-prefix">Author</div>
-            Jeff Delaney
-          </div>
-        </div>
-        <div class="tags">
+        <a target="_bla" href="https://hilarious-medovik-3cda2f.netlify.app/">
+          <img
+            className="img-cards"
+            src={require('../../images/snake_game_img.png')}
+            alt="snake-game"
+          />
+        </a>
+        <div className="technologies">Technologies</div>
+        <div className="tags">
           <a href="#">html</a>
           <a href="#">css</a>
           <a href="#">JS</a>
         </div>
       </article>
-
       <article class="card">
         <header class="card-header">
-          <p>Sep 11th 2020</p>
-          <h2>Rock paper scissors game</h2>
+          <h2>Clicks counter</h2>
         </header>
-
-        <div class="card-author">
-          <a class="author-avatar" href="#">
-            <img src="avatar.png" />
-          </a>
-
-          <div class="author-name">
-            <div class="author-name-prefix">Author</div>
-            Jeff Delaney
-          </div>
+        <a target="_bla" href="https://incomparable-pothos-f8cec3.netlify.app/">
+          <img
+            className="img-cards"
+            src={require('../../images/clicks_counter_img.png')}
+            alt="snake-game"
+          />
+        </a>
+        <div className="technologies">Technologies</div>
+        <div className="tags">
+          <a href="#">React</a>
+          <a href="#">Html</a>
+          <a href="#">css</a>
+          <a href="#">JS</a>
         </div>
-        <div class="tags">
+      </article>
+      <article class="card">
+        <header class="card-header">
+          <h2>Typing speed test</h2>
+        </header>
+        <a target="_bla" href="https://creative-entremet-225e0d.netlify.app/">
+          <img
+            className="img-cards"
+            src={require('../../images/typing_speed_test_img.png')}
+            alt="snake-game"
+          />
+        </a>
+        <div className="technologies">Technologies</div>
+        <div className="tags">
           <a href="#">html</a>
           <a href="#">css</a>
           <a href="#">JS</a>

@@ -14,10 +14,10 @@ export function About() {
         {/* Left container start*/}
         <div className="little-container-about-one">
           <p>
-            I'm a musician who developed an interest in coding after seeing the
-            positive impact it can have on others. I grew up around computers
-            and had to choose between studying music or systems engineering,
-            ultimately choosing music.
+            I'm a music teacher who developed an interest in coding after seeing
+            the positive impact it can have on others. I grew up around
+            computers and had to choose between studying music or systems
+            engineering, ultimately choosing music.
           </p>
           <p>
             I completed a 5-year music program and taught in schools for 3

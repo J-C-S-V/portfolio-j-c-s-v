@@ -2,9 +2,11 @@
   display: grid;
   grid-template-columns: 65% 35%;
   margin: 50px 200px 0;
-  background-color: rgb(190, 190, 190);
+  background-color: var(-black-bg-color);
   border-radius: 10px;
   min-width: 500px;
+
+  box-shadow: -2px 5px 10px 10px var(--white-bg-color2);
 }
 .about-text {
   display: grid;
@@ -26,7 +28,7 @@
 .little-container-about-one {
   word-spacing: 3px;
   padding: 50px;
-  background-color: var(--white-bg-color3);
+  background-color: var(-black-bg-color);
   border-radius: 10px;
   box-shadow: 50 50 50;
 }

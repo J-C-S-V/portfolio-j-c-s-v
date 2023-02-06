@@ -4,9 +4,27 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #17141d;
-  color: white;
+  background-color: var(--black-bg-color);
+  color: var(--white-bg-color);
   font-family: 'DM Mono', monospace;
+}
+
+.project-text {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+  margin: 10px 20% -200px;
+  height: 220px;
+  /* border: 1px solid black; */
+  /* background-color: yellow; */
+}
+
+.project-line {
+  width: 90%;
+  background-color: var(--text-blue-color);
+  height: 1px;
+  border-radius: 10px;
 }
 
 .img-cards {
@@ -18,22 +36,10 @@ body {
 .card-list {
   display: flex;
   padding: 3rem;
-  overflow-x: scroll;
-}
-
-.card-list::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-.card-list::-webkit-scrollbar-thumb {
-  background: #201c29;
-  border-radius: 10px;
-  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
-    inset -2px -2px 2px rgba(0, 0, 0, 0.25);
-}
-
-.card-list::-webkit-scrollbar-track {
-  background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
+  margin-left: 15%;
+  /* overflow: hidden; */
+  /* background-color: yellow; */
+  /* overflow-x: scroll; */
 }
 
 .card {
@@ -95,13 +101,15 @@ body {
 }
 
 .tags {
+  display: flex;
   margin: 0.5rem 0 2rem;
   padding: 0.3rem 0 1rem;
   line-height: 1;
   margin-bottom: 0;
 }
 
-.tags a {
+.tags .tech {
+  margin: 2px;
   font-style: normal;
   font-weight: 700;
   font-size: 0.5rem;
@@ -114,7 +122,7 @@ body {
   position: relative;
 }
 
-.tags a {
+.tags .tech {
   color: #e52e71;
   cursor: default;
 }

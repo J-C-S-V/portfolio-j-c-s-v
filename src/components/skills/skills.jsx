@@ -1,5 +1,11 @@
 import React from 'react';
 import './skills.css';
+import { FaReact } from 'react-icons/fa';
+import { SiJavascript } from 'react-icons/si';
+import { DiCss3 } from 'react-icons/di';
+import { FaGitAlt } from 'react-icons/fa';
+import { SiVisualstudio } from 'react-icons/si';
+import { TiHtml5 } from 'react-icons/ti';
 
 export function Skills() {
   return (
@@ -8,51 +14,52 @@ export function Skills() {
         <div className="skills-text">Skills</div>
         <div className="skills-line"></div>
       </div>
-
-      <ul className="skills-list">
-        <li>
-          <a rel="noreferrer" target="_blank" href="https://www.w3.org/html/">
-            HTML
-          </a>
-        </li>
-        <li>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-          >
-            Javascript
-          </a>
-        </li>
-        <li>
-          <a rel="noreferrer" target="_blank" href="https://reactjs.org/">
-            Reactjs
-          </a>
-        </li>
-        <li>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            href="https://www.w3.org/Style/CSS/"
-          >
-            CSS3
-          </a>
-        </li>
-        <li>
-          <a rel="noreferrer" target="_blank" href="https://git-scm.com/">
-            Git/GitHub
-          </a>
-        </li>
-        <li>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            href="https://code.visualstudio.com/"
-          >
-            VSCode
-          </a>
-        </li>
-      </ul>
+      <div className="skills-container">
+        <ul className="skills-list">
+          <li>
+            <a rel="noreferrer" target="_blank" href="https://www.w3.org/html/">
+              <TiHtml5 />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            >
+              <SiJavascript />
+            </a>
+          </li>
+          <li>
+            <a rel="noreferrer" target="_blank" href="https://reactjs.org/">
+              <FaReact />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.w3.org/Style/CSS/"
+            >
+              <DiCss3 />
+            </a>
+          </li>
+          <li>
+            <a rel="noreferrer" target="_blank" href="https://git-scm.com/">
+              <FaGitAlt />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://code.visualstudio.com/"
+            >
+              <SiVisualstudio />
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

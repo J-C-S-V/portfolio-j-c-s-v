@@ -1,9 +1,19 @@
 .skills-main-container {
   display: grid;
   margin: 10% 25%;
-  grid-template-rows: 1fr 1fr;
-  background-image: url('https://img.freepik.com/vector-gratis/coleccion-iconos-dibujados-mano-negocios_1133-343.jpg?w=740&t=st=1675379002~exp=1675379602~hmac=b247b5c4f45f09a5af9375ac6b770a76719e2fe5c3f37c21469e0e02298e338e');
   /* background-color: tomato; */
+}
+.skills-container {
+  display: grid;
+  opacity: 0.8;
+  background-image: url('https://img.freepik.com/vector-gratis/coleccion-iconos-dibujados-mano-negocios_1133-343.jpg?w=740&t=st=1675379002~exp=1675379602~hmac=b247b5c4f45f09a5af9375ac6b770a76719e2fe5c3f37c21469e0e02298e338e');
+  border-radius: 10px;
+}
+
+.skills-container ul {
+  padding: 50px;
+  /* background-color: tomato; */
+  width: 100%;
 }
 .skills-heading {
   display: grid;
@@ -11,8 +21,10 @@
   align-items: center;
   height: 30px;
   width: 700px;
+  margin: -40px;
   /* background-color: yellow; */
 }
+
 .skills-line {
   height: 1px;
   width: 80%;
@@ -20,17 +32,15 @@
 }
 .skills-list {
   display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 30px;
-  color: var(--text-blue-color);
-  text-decoration: none;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+  /* text-decoration: none; */
   list-style: none;
-  font-weight: bold;
   /* background-color: aqua; */
 }
 .skills-list a {
   background-color: var(--text-blue-color-hard);
-  padding: 5px;
+  padding: 10px;
   border-radius: 10px;
 }
 .skills-list a:hover {

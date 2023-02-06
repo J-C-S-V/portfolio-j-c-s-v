@@ -17,18 +17,18 @@ export function About() {
             I'm a music teacher who developed an interest in coding after seeing
             the positive impact it can have on others. I grew up around
             computers and had to choose between studying music or systems
-            engineering, ultimately choosing music.
+            engineering, ultimately choosing music. 🎼
           </p>
           <p>
             I completed a 5-year music program and taught in schools for 3
             years, but now I want to switch careers to become a successful web
-            developer.
+            developer. 💻
           </p>
           <p>
             <strong>My goal</strong> right now is to gain experience and
             knowledge
             <strong> to help other people</strong> and make this world a better
-            place to live for everyone.
+            place to live for everyone. 🌎
           </p>
         </div>
 

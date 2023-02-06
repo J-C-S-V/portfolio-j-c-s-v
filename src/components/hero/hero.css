@@ -1,3 +1,20 @@
+.hero-section:hover {
+  animation-name: fadein;
+  animation-duration: 1s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* @media (max-width: 900px) {
   .projects-list {
     width: 320px;

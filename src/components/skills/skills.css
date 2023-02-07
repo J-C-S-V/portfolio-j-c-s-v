@@ -5,7 +5,7 @@
 }
 .skills-container {
   display: grid;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   background-image: url('https://img.freepik.com/vector-gratis/coleccion-iconos-dibujados-mano-negocios_1133-343.jpg?w=740&t=st=1675379002~exp=1675379602~hmac=b247b5c4f45f09a5af9375ac6b770a76719e2fe5c3f37c21469e0e02298e338e');
   border-radius: 10px;
 }

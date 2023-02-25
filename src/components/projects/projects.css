@@ -5,7 +5,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: var(--black-bg-color);
-  color: var(--white-bg-color);
+  color: var(--white);
   font-family: 'DM Mono', monospace;
 }
 
@@ -22,7 +22,7 @@ body {
 
 .project-line {
   width: 90%;
-  background-color: var(--text-blue-color);
+  background-color: var(--blue2);
   height: 1px;
   border-radius: 10px;
 }

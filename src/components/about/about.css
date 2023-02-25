@@ -6,7 +6,7 @@
   border-radius: 10px;
   min-width: 500px;
 
-  box-shadow: -2px 5px 10px 10px var(--white-bg-color2);
+  box-shadow: -2px 5px 10px 10px var(--grey);
 }
 .about-text {
   display: grid;
@@ -44,14 +44,14 @@
   margin: 10px;
 }
 .little-container-about-one strong {
-  color: var(--text-blue-color);
+  color: var(--blue2);
   font-size: 20px;
 }
 @media only screen and (max-width: 767px) {
 }
 .about-line {
   width: 90%;
-  background-color: var(--text-blue-color);
+  background-color: var(--blue2);
   height: 1px;
   border-radius: 10px;
 }

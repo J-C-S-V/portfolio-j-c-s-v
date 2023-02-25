@@ -1,8 +1,8 @@
 footer {
   display: grid;
   height: 85vh;
-  background-color: var(--white-bg-color3);
-  color: var(--text-black-color);
+  background-color: var(--white2);
+  color: var(--black2);
 }
 .main-container {
   display: grid;
@@ -13,17 +13,17 @@ footer {
 }
 .line {
   width: 80%;
-  background-color: var(--text-blue-color);
+  background-color: var(--blue2);
 
   height: 1px;
   border-radius: 10px;
 }
 .anchor-say-hello {
-  background-color: var(--text-blue-color);
+  background-color: var(--blue2);
   text-decoration: none;
   border: 3px solid black;
   border-radius: 10px;
-  color: var(--white-bg-color);
+  color: var(--white);
   padding: 35px;
   width: 200px;
 }
@@ -34,7 +34,7 @@ footer {
   background-color: #00319b;
 }
 .little-container-three span {
-  background-color: var(--text-blue-color);
+  background-color: var(--blue2);
   font-weight: 400;
   border-radius: 10px;
   padding: 4px;
@@ -55,7 +55,7 @@ footer {
   display: grid;
   grid-auto-flow: column;
   align-items: center;
-  border: 4px solid var(--text-black-color);
+  border: 4px solid var(--black2);
   /* background-color: rgb(54, 182, 45); */
   animation-name: breath;
   animation-duration: 4s;
@@ -64,13 +64,13 @@ footer {
 }
 @keyframes breath {
   0% {
-    background-color: var(--white-bg-color2);
+    background-color: var(--grey);
   }
   50% {
-    background-color: var(--white-bg-color3);
+    background-color: var(--white2);
   }
   100% {
-    background-color: var(--white-bg-color2);
+    background-color: var(--grey);
   }
 }
 .little-container-three {

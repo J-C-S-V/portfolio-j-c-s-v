@@ -28,7 +28,7 @@
 .skills-line {
   height: 1px;
   width: 80%;
-  background-color: var(--text-blue-color);
+  background-color: var(--blue2);
 }
 .skills-list {
   display: grid;
@@ -39,7 +39,7 @@
   /* background-color: aqua; */
 }
 .skills-list a {
-  background-color: var(--text-blue-color-hard);
+  background-color: var(--blue);
   padding: 10px;
   border-radius: 10px;
 }
@@ -50,7 +50,7 @@
   cursor: pointer;
 }
 .skills-list li a:visited {
-  color: var(--white-bg-color);
+  color: var(--white);
 }
 
 li svg:hover {

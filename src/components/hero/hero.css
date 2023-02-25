@@ -45,7 +45,7 @@ section {
   margin: 20px auto;
 }
 .hero-name {
-  color: var(--text-blue-color);
+  color: var(--blue2);
   font-size: 2.5rem;
 }
 .hero-greeting {
@@ -57,6 +57,6 @@ section {
   margin-left: 45px;
 }
 .hero-title span {
-  color: var(--text-blue-color);
+  color: var(--blue2);
   padding: 3px;
 }

@@ -8,19 +8,18 @@
   scroll-behavior: smooth;
 }
 :root {
-  --white-bg-color: #ffffff;
-  --white-bg-color2: rgb(150, 150, 150);
-  --white-bg-color3: rgb(233, 233, 233);
-  --text-blue-color-hard: #00319b;
-  --text-blue-color: #003fc7;
-  --text-blue-color-soft: #446ec8;
-  --text-black-color: #2b353f;
+  --white: #ffffff;
+  --white2: rgb(233, 233, 233);
+  --grey: rgb(150, 150, 150);
   --black-bg-color: #17141d;
-  --hover-white-text: rgb(227, 227, 227);
+  --black2: #2b353f;
+  --blue: #00319b;
+  --blue2: #003fc7;
+  --blue3: #446ec8;
 }
 
 body {
-  color: var(--text-black-color);
+  color: var(--black2);
 }
 a {
   text-decoration: none;

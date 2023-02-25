@@ -9,45 +9,45 @@
   z-index: 1;
   /* border-top: 3px solid black; */
 }
-.container-anchor a {
+.navbar__anchor {
   padding: 15px;
   border-radius: 5px;
 }
-.container-anchor li {
+.navbar__li {
   list-style-type: none;
 }
-.container-anchor a:visited {
+.navbar__anchor:visited {
   color: var(--black2);
 }
-.container-anchor a {
+.navbar__anchor {
   color: var(--black2);
 }
-.container-anchor a:hover {
+.navbar__anchor:hover {
   transition: 0.4s;
   background-color: var(--white2);
   color: var(--blue2);
 }
 
-.container-anchor a:active {
+.navbar__anchor:active {
   transition: 0.4s;
   background-color: var(--white2);
   color: var(--blue2);
 }
 
-.container-anchor {
+.navbar__ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-.pic-one {
+.navbar__img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   border: solid 3px rgb(131, 129, 129);
 }
 
-.pic-one:hover {
+.navbar__img:hover {
   transition: 0.4s;
 
   cursor: pointer;

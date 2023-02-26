@@ -3,12 +3,20 @@ import './navbar.css';
 export function Navbar() {
   return (
     <div className="navbar">
-      <div className="navbar__photo">
+      <div className="navbar-img-container">
         <img
-          className="navbar__img"
+          className="navbar-img-container__img"
           src={require('../../images/profile_pic1.jpg')}
           alt="Juan Sanchez's face"
+          title="Thank you for visiting my website 🤓"
         />
+        <span className="navbar-img-container__name">Juan Sanchez</span>
+        <div className="spans">
+          <span className="spans__unit"></span>
+          <span className="spans__unit"></span>
+          <span className="spans__unit"></span>
+          <span className="spans__unit"></span>
+        </div>
       </div>
       <div className="navbar__list">
         <ul className="navbar__ul">

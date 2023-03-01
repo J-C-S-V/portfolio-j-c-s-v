@@ -1,6 +1,7 @@
 .hero {
   display: grid;
-  margin: 100px 25% auto;
+  /* margin: 100px 25% auto; DESK*/
+  margin: 30px 7% auto;
   text-align: center;
   animation-name: fadein;
   animation-duration: 1.5s;
@@ -27,16 +28,25 @@
   margin: 20px auto;
 }
 
+.hero__description {
+  font-size: 0.8rem;
+}
+
 .hero__name {
   color: var(--blue2);
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; DESK*/
+  font-size: 1.4rem;
   margin-left: 45px;
 }
 
 .hero__greeting {
   margin-left: 20px;
   text-align: left;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+}
+
+.h2 {
+  font-size: 1rem;
 }
 
 .h2__span {

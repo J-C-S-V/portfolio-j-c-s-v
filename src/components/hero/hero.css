@@ -20,17 +20,10 @@
   }
 }
 
-/* @media (max-width: 900px) {
-  .projects-list {
-    width: 320px;
-  }
-} */
 section {
   display: grid;
   margin: 100px 25% auto;
   text-align: center;
-  /* border: 3px solid black; */
-  /* background-color: yellow; */
 }
 .hero-div {
   display: grid;
@@ -39,7 +32,6 @@ section {
   width: 100%;
   align-items: center;
   height: 220px;
-  /* background-color: tomato; */
 }
 .elements-inside-section {
   margin: 20px auto;

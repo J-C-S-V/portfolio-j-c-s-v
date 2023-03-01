@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App" id="jump-home">
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
       {/* <Projects /> */}
       {/* <About /> */}
       {/* <Skills /> */}

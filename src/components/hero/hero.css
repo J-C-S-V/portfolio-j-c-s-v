@@ -1,4 +1,7 @@
-.hero-section {
+.hero {
+  display: grid;
+  margin: 100px 25% auto;
+  text-align: center;
   animation-name: fadein;
   animation-duration: 1.5s;
 }
@@ -20,35 +23,23 @@
   }
 }
 
-section {
-  display: grid;
-  margin: 100px 25% auto;
-  text-align: center;
-}
-.hero-div {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: 20% 80%;
-  width: 100%;
-  align-items: center;
-  height: 220px;
-}
-.elements-inside-section {
+.elements {
   margin: 20px auto;
 }
-.hero-name {
+
+.hero__name {
   color: var(--blue2);
   font-size: 2.5rem;
+  margin-left: 45px;
 }
-.hero-greeting {
+
+.hero__greeting {
   margin-left: 20px;
   text-align: left;
   font-size: 0.8rem;
 }
-.hero-name {
-  margin-left: 45px;
-}
-.hero-title span {
+
+.h2__span {
   color: var(--blue2);
   padding: 3px;
 }

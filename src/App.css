@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,700&family=Open+Sans:wght@300&family=Roboto:wght@100;400&family=Zen+Dots&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,700&family=Open+Sans:wght@300&family=Orbitron:wght@600&family=Roboto+Mono:wght@200&family=Roboto:wght@100;400&family=Zen+Dots&display=swap');
 * {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -20,6 +21,11 @@
 
 body {
   color: var(--black2);
+  padding: 0;
+  margin: 0;
+  background-color: var(--black-bg-color);
+  color: var(--white);
+  font-family: 'DM Mono', monospace;
 }
 a {
   text-decoration: none;

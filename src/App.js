@@ -12,7 +12,7 @@ function App() {
     <div className="App" id="jump-home">
       <Navbar />
       <Hero />
-      {/* <Projects /> */}
+      <Projects />
       {/* <About /> */}
       {/* <Skills /> */}
       {/* <Footer /> */}

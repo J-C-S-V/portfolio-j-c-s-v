@@ -1,4 +1,4 @@
-.project-text {
+.project__header-container {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: 20% 80%;
@@ -9,20 +9,20 @@
   /* background-color: yellow; */
 }
 
-.project-line {
+.project__line {
   width: 90%;
   background-color: var(--blue2);
   height: 1px;
   border-radius: 10px;
 }
 
-.img-cards {
+.img__cards {
   width: 260px;
   height: 170px;
   margin-bottom: 20px;
 }
 
-.card-list {
+.cards {
   display: flex;
   padding: 3rem;
   margin-left: 15%;
@@ -61,17 +61,17 @@
   margin-left: -130px;
 }
 
-.card-header {
+.card__header {
   margin-bottom: auto;
 }
 
-.card-header p {
+.card__header p {
   font-size: 14px;
   margin: 0 0 1rem;
   color: #7a7a8c;
 }
 
-.card-header h2 {
+.card__header h2 {
   font-size: 20px;
   margin: 0.25rem 0 auto;
   text-decoration: none;
@@ -81,7 +81,7 @@
   font-family: 'Roboto Mono', monospace;
 }
 
-.card-header h2 {
+.card__header h2 {
   background: linear-gradient(90deg, #ff8a00, #e52e71);
   text-shadow: none;
   -webkit-text-fill-color: transparent;

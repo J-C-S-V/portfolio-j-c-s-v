@@ -10,18 +10,17 @@ export function Footer() {
           <span className="contact__line"></span>
         </header>
 
-        <div className="little-container-two containers">
-          <div className="contact-text2 contact-text">
-            If you want to hire me:
-          </div>
-          <a className="anchor-say-hello" href="mailto:juansan1993@hotmail.com">
-            Say Hello 👋
+        <section className="contact__email containers">
+          <p className="contact-text2">If you want to hire me:</p>
+          <a className="contact__anchor" href="mailto:juansan1993@hotmail.com">
+            Get in touch 👋📧
           </a>
-        </div>
+        </section>
 
-        <div className="little-container-three containers">
-          Designed and built by <span>Juan Sanchez</span>
-        </div>
+        <section className="contact__signature-container">
+          <p className="contact__signature">Designed and built by</p>
+          <p>Juan Sanchez</p>
+        </section>
       </section>
     </footer>
   );

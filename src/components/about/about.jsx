@@ -3,15 +3,12 @@ import './about.css';
 
 export function About() {
   return (
-    <div className="big-div" id="jump-about">
-      {/* About text container */}
-      <div className="about-text">
-        <div className="about-text2">About</div>
-        <div className="about-line"></div>
-      </div>
-      {/* Main container */}
+    <section className="big-div" id="jump-about">
+      <header className="project__header-container">
+        <div className="project__header">About</div>
+        <span className="project__line"></span>
+      </header>
       <div className="main-container-about">
-        {/* Left container start*/}
         <div className="little-container-about-one">
           <p>
             I'm a music teacher who developed an interest in coding after seeing
@@ -31,14 +28,12 @@ export function About() {
             place to live for everyone. 🌎
           </p>
         </div>
-
-        {/* Photo container */}
         <img
           className="img-about"
           src={require('../../images/profile_pic2.jpg')}
           alt="Juan Sanchez"
         />
       </div>
-    </div>
+    </section>
   );
 }

@@ -1,8 +1,17 @@
 /* MOBILE VERSION */
 
 .skills {
+  display: flex;
+  flex-direction: column;
   margin: 30px 7% auto;
   border: 1px solid white;
+}
+
+.skills__line {
+  width: 80%;
+  background-color: var(--blue2);
+  margin-left: 0.5rem;
+  height: 2px;
 }
 
 .skills__header-container {
@@ -14,9 +23,20 @@
   /* border: 1px solid black; */
 }
 
-.skills__line {
-  width: 80%;
-  background-color: var(--blue2);
-  margin-left: 0.5rem;
-  height: 2px;
+.skills__svg {
+  /* border: 1px solid white; */
+}
+
+.skills__soft-hard {
+  display: flex;
+  height: 50vh;
+}
+
+.skills__li {
+  list-style-type: disc;
+  font-size: 0.8rem;
+}
+
+.skills__soft {
+  display: block;
 }

@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   margin: 30px 7% auto;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .skills__line {
@@ -27,11 +27,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 0 1rem;
+  padding: 0 2rem;
   height: 70vh;
   background-image: url('../../images/skills_image.png');
   background-size: cover;
   background-repeat: round;
+  border-radius: 1rem;
 }
 
 .skills__li {

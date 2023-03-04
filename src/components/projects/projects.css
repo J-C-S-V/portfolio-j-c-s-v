@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   margin: 30px 7% auto;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .about__header-container {
@@ -84,6 +84,7 @@
 
 .tags {
   display: flex;
+  /* flex-flow: wrap; */
   margin: 0.5rem 0 2rem;
   padding: 0.3rem 0 1rem;
   line-height: 1;

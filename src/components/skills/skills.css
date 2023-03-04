@@ -23,20 +23,21 @@
   /* border: 1px solid black; */
 }
 
-.skills__svg {
-  /* border: 1px solid white; */
-}
-
 .skills__soft-hard {
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   padding: 0 1rem;
-  height: 50vh;
+  height: 70vh;
   background-image: url('../../images/skills_image.png');
+  background-size: cover;
+  background-repeat: round;
 }
 
 .skills__li {
   list-style-type: disc;
   font-size: 0.8rem;
+  margin-bottom: 0.2rem;
 }
 
 .skills__soft {

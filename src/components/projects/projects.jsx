@@ -25,24 +25,23 @@ export function Projects() {
           </a>
           <h2 className="technologies">Technologies</h2>
           <ul className="tags">
-            <li className="tech">
+            <li className="tags__tech">
               <GrGithub />
             </li>
-            <li className="tech">
+            <li className="tags__tech">
               <GrReactjs />
             </li>
-            <li className="tech">
+            <li className="tags__tech">
               <TiHtml5 />
             </li>
-            <li className="tech">
+            <li className="tags__tech">
               <SiJavascript />
             </li>
           </ul>
         </article>
-
         <article class="card">
           <header class="card__header">
-            <h2>Snake</h2>
+            <h2 className="card__header-text">Snake</h2>
           </header>
           <a target="_bla" href="https://hilarious-medovik-3cda2f.netlify.app/">
             <img
@@ -53,14 +52,23 @@ export function Projects() {
           </a>
           <h2 className="technologies">Technologies</h2>
           <ul className="tags">
-            <li className="tech">html</li>
-            <li className="tech">css</li>
-            <li className="tech">JS</li>
+            <li className="tags__tech">
+              <GrGithub />
+            </li>
+            <li className="tags__tech">
+              <GrReactjs />
+            </li>
+            <li className="tags__tech">
+              <TiHtml5 />
+            </li>
+            <li className="tags__tech">
+              <SiJavascript />
+            </li>
           </ul>
         </article>
-        <article class="card">
+        {/* <article class="card">
           <header class="card__header">
-            <h2>Clicks counter</h2>
+            <h2 className="card__header-text">Clicks counter</h2>
           </header>
           <a
             target="_bla"
@@ -74,14 +82,14 @@ export function Projects() {
           </a>
           <h2 className="technologies">Technologies</h2>
           <ul className="tags">
-            <li className="tech">html</li>
-            <li className="tech">css</li>
-            <li className="tech">JS</li>
+            <li className="tags__tech">html</li>
+            <li className="tags__tech">css</li>
+            <li className="tags__tech">JS</li>
           </ul>
         </article>
         <article class="card">
           <header class="card__header">
-            <h2>Typing speed test</h2>
+            <h2 className="card__header-text">Typing speed test</h2>
           </header>
           <a target="_bla" href="https://creative-entremet-225e0d.netlify.app/">
             <img
@@ -92,11 +100,11 @@ export function Projects() {
           </a>
           <h2 className="technologies">Technologies</h2>
           <ul className="tags">
-            <li className="tech">html</li>
-            <li className="tech">css</li>
-            <li className="tech">JS</li>
+            <li className="tags__tech">html</li>
+            <li className="tags__tech">css</li>
+            <li className="tags__tech">JS</li>
           </ul>
-        </article>
+        </article> */}
       </section>
     </div>
   );

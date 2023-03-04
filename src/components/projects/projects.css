@@ -1,12 +1,17 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+}
+
 .project__header-container {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: 20% 80%;
   align-items: center;
-  margin: 10px 20% -200px;
   height: 220px;
+  /* margin: 10px 20% -200px; */
   /* border: 1px solid black; */
-  /* background-color: yellow; */
 }
 
 .project__line {
@@ -24,54 +29,45 @@
 
 .cards {
   display: flex;
-  padding: 3rem;
-  margin-left: 15%;
+  flex-flow: wrap column;
+  /* padding: 3rem; This one is causing that the cards move out of the container */
+  /* margin-left: 15%; */
   /* overflow: hidden; */
-  /* background-color: yellow; */
   /* overflow-x: scroll; */
 }
 
 .card {
-  height: 350px;
-  width: 400px;
-  min-width: 250px;
-  padding: 1.5rem;
-  border-radius: 16px;
-  background: #17141d;
-  box-shadow: -1rem 0 3rem #000;
   display: flex;
   flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background-color: #17141d;
+  box-shadow: -1rem 0 3rem #000;
   transition: 0.2s;
-  margin: 0;
-  scroll-snap-align: start;
-  clear: both;
-  position: relative;
+  margin: auto;
+  /* border: 1px solid white; */
+  /* height: 350px; */
+  /* width: 400px; */
+  /* min-width: 250px; */
+  /* margin: 0; */
+  /* scroll-snap-align: start; */
+  /* clear: both; */
+  /* position: relative; */
 }
 
-.card:focus-within ~ .card,
-.card:hover ~ .card {
-  transform: translateX(130px);
-}
-
-.card:hover {
+/* .card:hover {
   transform: translateY(-1rem);
-}
+} */
 
-.card:not(:first-child) {
+/* .card:not(:first-child) {
   margin-left: -130px;
-}
+} */
 
-.card__header {
+/* .card__header {
   margin-bottom: auto;
-}
+} */
 
-.card__header p {
-  font-size: 14px;
-  margin: 0 0 1rem;
-  color: #7a7a8c;
-}
-
-.card__header h2 {
+.card__header-text {
   font-size: 20px;
   margin: 0.25rem 0 auto;
   text-decoration: none;
@@ -79,9 +75,6 @@
   border: 0;
   display: inline-block;
   font-family: 'Roboto Mono', monospace;
-}
-
-.card__header h2 {
   background: linear-gradient(90deg, #ff8a00, #e52e71);
   text-shadow: none;
   -webkit-text-fill-color: transparent;
@@ -97,7 +90,7 @@
   margin-bottom: 0;
 }
 
-.tags .tech {
+.tags__tech {
   margin: 2px;
   font-style: normal;
   font-weight: 700;
@@ -111,7 +104,7 @@
   position: relative;
 }
 
-.tags .tech {
+.tags__tech {
   color: #e52e71;
   cursor: default;
 }
@@ -119,4 +112,146 @@
 .technologies {
   font-size: 20px;
   font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+}
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+Desktop view 
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+@media screen and (min-width: 768px) {
+  .project__header-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    margin: 10px 20% -200px;
+    height: 220px;
+    /* border: 1px solid black; */
+    /* background-color: yellow; */
+  }
+
+  .project__line {
+    width: 90%;
+    background-color: var(--blue2);
+    height: 1px;
+    border-radius: 10px;
+  }
+
+  .img__cards {
+    width: 260px;
+    height: 170px;
+    margin-bottom: 20px;
+  }
+
+  .cards {
+    display: flex;
+    padding: 3rem;
+    margin-left: 15%;
+    /* overflow: hidden; */
+    /* overflow-x: scroll; */
+  }
+
+  .card {
+    height: 350px;
+    width: 400px;
+    min-width: 250px;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: #17141d;
+    box-shadow: -1rem 0 3rem #000;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s;
+    margin: 0;
+    scroll-snap-align: start;
+    clear: both;
+    position: relative;
+  }
+
+  .card:focus-within ~ .card,
+  .card:hover ~ .card {
+    transform: translateX(130px);
+  }
+
+  .card:hover {
+    transform: translateY(-1rem);
+  }
+
+  .card:not(:first-child) {
+    margin-left: -130px;
+  }
+
+  .card__header {
+    margin-bottom: auto;
+  }
+
+  .card__header-text {
+    font-size: 20px;
+    margin: 0.25rem 0 auto;
+    text-decoration: none;
+    color: inherit;
+    border: 0;
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    text-shadow: none;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  .tags {
+    display: flex;
+    margin: 0.5rem 0 2rem;
+    padding: 0.3rem 0 1rem;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+
+  .tags__tech {
+    margin: 2px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.5rem;
+    color: #7a7a8c;
+    text-transform: uppercase;
+    font-size: 0.66rem;
+    border: 1px solid #515151;
+    border-radius: 2rem;
+    padding: 0.2rem 0.85rem 0.25rem;
+    position: relative;
+  }
+
+  .tags__tech {
+    color: #e52e71;
+    cursor: default;
+  }
+
+  .technologies {
+    font-size: 20px;
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+  }
 }

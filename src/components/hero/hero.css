@@ -6,6 +6,7 @@
   animation-name: fadein;
   animation-duration: 1.5s;
   height: 85vh;
+  border: 1px solid white;
 }
 
 @keyframes fadein {

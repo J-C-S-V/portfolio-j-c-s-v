@@ -2,7 +2,7 @@ import React from 'react';
 import './projects.css';
 import { GrGithub } from 'react-icons/gr';
 import { GrReactjs } from 'react-icons/gr';
-import { TiHtml5 } from 'react-icons/ti';
+import { AiFillHtml5 } from 'react-icons/ai';
 import { SiJavascript } from 'react-icons/si';
 export function Projects() {
   return (
@@ -16,7 +16,11 @@ export function Projects() {
           <header class="card__header">
             <h2 className="card__header-text">Rock paper scissors</h2>
           </header>
-          <a target="_bla" href="https://luxury-swan-136d4f.netlify.app/">
+          <a
+            className="card__anchor"
+            target="_bla"
+            href="https://luxury-swan-136d4f.netlify.app/"
+          >
             <img
               className="img__cards"
               src={require('../../images/rock_paper_scissors_img.png')}
@@ -32,7 +36,7 @@ export function Projects() {
               <GrReactjs />
             </li>
             <li className="tags__tech">
-              <TiHtml5 />
+              <AiFillHtml5 className="tags_logo" />
             </li>
             <li className="tags__tech">
               <SiJavascript />
@@ -43,7 +47,11 @@ export function Projects() {
           <header class="card__header">
             <h2 className="card__header-text">Snake</h2>
           </header>
-          <a target="_bla" href="https://hilarious-medovik-3cda2f.netlify.app/">
+          <a
+            className="card__anchor"
+            target="_bla"
+            href="https://hilarious-medovik-3cda2f.netlify.app/"
+          >
             <img
               className="img__cards"
               src={require('../../images/snake_game_img.png')}
@@ -59,7 +67,7 @@ export function Projects() {
               <GrReactjs />
             </li>
             <li className="tags__tech">
-              <TiHtml5 />
+              <AiFillHtml5 />
             </li>
             <li className="tags__tech">
               <SiJavascript />
@@ -71,6 +79,7 @@ export function Projects() {
             <h2 className="card__header-text">Clicks counter</h2>
           </header>
           <a
+          className='card__anchor'
             target="_bla"
             href="https://incomparable-pothos-f8cec3.netlify.app/"
           >
@@ -91,7 +100,9 @@ export function Projects() {
           <header class="card__header">
             <h2 className="card__header-text">Typing speed test</h2>
           </header>
-          <a target="_bla" href="https://creative-entremet-225e0d.netlify.app/">
+          <a 
+          className='card__anchor'
+          target="_bla" href="https://creative-entremet-225e0d.netlify.app/">
             <img
               className="img__cards"
               src={require('../../images/typing_speed_test_img.png')}

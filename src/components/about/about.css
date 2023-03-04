@@ -1,24 +1,13 @@
 /* MOBILE VERSION */
 
-.big-div {
+.about {
   display: flex;
   flex-direction: column;
   margin: 30px 7% auto;
   border: 1px solid white;
-  border: 1px solid white;
 }
 
-.main-container-about {
-  display: flex;
-  /* grid-template-columns: 65% 35%; */
-  /* margin: 50px 200px 0; */
-  background-color: var(-black-bg-color);
-  border-radius: 10px;
-  /* min-width: 500px; */
-  box-shadow: -2px 5px 10px 10px var(--grey);
-}
-
-.project__header-container {
+.about__header-container {
   display: inline-flex;
   align-items: center;
   padding: 1rem 0 1rem;
@@ -27,51 +16,54 @@
   /* border: 1px solid black; */
 }
 
-.img-about {
-  min-height: 20%;
-  max-width: 90%;
-  margin: auto auto;
-  border-radius: 50%;
-  /* border: 5px solid #444; */
-}
-
-.project__line {
+.about__line {
   width: 80%;
   background-color: var(--blue2);
   margin-left: 0.5rem;
   height: 2px;
 }
 
-.little-container-about-one {
-  word-spacing: 3px;
-  padding: 50px;
-  background-color: var(-black-bg-color);
-  border-radius: 10px;
-  box-shadow: 50 50 50;
+.about__container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: var(-black-bg-color); */
+  /* border-radius: 10px; */
+  /* grid-template-columns: 65% 35%; */
+  /* margin: 50px 200px 0; */
+  /* min-width: 500px; */
+  /* box-shadow: -2px 5px 10px 10px var(--grey); */
 }
 
-.little-container-about-one p {
-  font-size: 20px;
-  margin: 40px auto;
+.about__p {
+  display: flex;
+  flex-direction: column;
+  word-spacing: 0.1rem;
+  padding: 1rem;
+  gap: 1rem;
+  /* background-color: var(-black-bg-color); */
+  /* border-radius: 10px; */
+  /* box-shadow: 50 50 50; */
+  /* font-size: 20px; */
+  /* margin: 40px auto; */
 }
 
-.about-list {
-  display: grid;
-  grid-template-columns: auto auto;
+.about__img {
+  background-size: 40%;
+  max-width: 90%;
+  border-radius: 50%;
+  border: 5px solid var(--grey);
+  /* margin: 1rem auto; */
+  /* justify-self: center; */
 }
 
-.about-list li {
-  margin: 10px;
-}
-
-.little-container-about-one strong {
+.about__strong {
   color: var(--blue2);
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 /* DESKTOP VERSION */
 @media screen and (min-width: 768px) {
-  .main-container-about {
+  .about__container {
     display: grid;
     grid-template-columns: 65% 35%;
     margin: 50px 200px 0;
@@ -91,21 +83,21 @@
     /* border: 1px solid black; */
     /* background-color: yellow; */
   }
-  .img-about {
+  .about__img {
     min-height: 20%;
     max-width: 90%;
     margin: auto auto;
     border-radius: 50%;
     /* border: 5px solid #444; */
   }
-  .little-container-about-one {
+  .about__p {
     word-spacing: 3px;
     padding: 50px;
     background-color: var(-black-bg-color);
     border-radius: 10px;
     box-shadow: 50 50 50;
   }
-  .little-container-about-one p {
+  .about__p p {
     font-size: 20px;
     margin: 40px auto;
   }
@@ -116,7 +108,7 @@
   .about-list li {
     margin: 10px;
   }
-  .little-container-about-one strong {
+  .about__p strong {
     color: var(--blue2);
     font-size: 20px;
   }

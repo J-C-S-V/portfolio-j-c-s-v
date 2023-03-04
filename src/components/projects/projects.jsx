@@ -7,9 +7,9 @@ import { SiJavascript } from 'react-icons/si';
 export function Projects() {
   return (
     <div className="projects">
-      <header className="project__header-container">
-        <div className="project__header">Projects</div>
-        <span className="project__line"></span>
+      <header className="about__header-container">
+        <div className="about__header">Projects</div>
+        <span className="about__line"></span>
       </header>
       <section class="cards">
         <article class="card">

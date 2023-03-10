@@ -29,7 +29,7 @@
 }
 
 .contact__anchor {
-  background-color: var(--blue2);
+  background-color: var(--black-bg-color);
   text-decoration: none;
   border: 3px solid black;
   border-radius: 10px;
@@ -130,7 +130,7 @@ DESKTOP
     border-radius: 10px;
   }
   .contact__anchor {
-    background-color: var(--blue2);
+    background-color: var(--black-bg-color);
     text-decoration: none;
     border: 3px solid black;
     border-radius: 10px;

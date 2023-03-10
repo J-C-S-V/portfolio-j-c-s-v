@@ -1,12 +1,10 @@
 .hero {
   display: grid;
-  /* margin: 100px 25% auto; DESK*/
-  margin: 30px 7% auto;
+  margin: 4% 7% auto;
   text-align: center;
-  animation-name: fadein;
-  animation-duration: 1.5s;
   height: 85vh;
-  /* border: 1px solid white; */
+  animation-name: fadein;
+  animation-duration: 2s;
 }
 
 @keyframes fadein {
@@ -22,7 +20,7 @@
   }
   100% {
     opacity: 1;
-    margin-top: 100px;
+    margin-top: 4%;
   }
 }
 
@@ -36,7 +34,6 @@
 
 .hero__name {
   color: var(--blue2);
-  /* font-size: 2.5rem; DESK*/
   font-size: 1.4rem;
   margin-left: 45px;
 }
@@ -54,4 +51,21 @@
 .h2__span {
   color: var(--blue2);
   padding: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: grid;
+    margin: 4% 16% auto;
+  }
+  .hero__name {
+    margin-left: 6rem;
+    font-size: 2rem;
+  }
+  .hero__greeting {
+    font-size: 1rem;
+  }
+  .hero__description {
+    margin: auto 16% 10%;
+  }
 }

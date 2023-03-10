@@ -30,7 +30,7 @@
 
 .navbar-img-container__img:hover {
   transition: ease-in 1s;
-  cursor: pointer;
+  cursor: default;
   content: attr(title);
   color: #fff;
   border: solid 5px var(--black2);
@@ -94,4 +94,20 @@
 
 .navbar__list {
   display: none;
+}
+
+@media screen and (min-width: 500px) {
+  .navbar__list {
+    display: flex;
+  }
+  .spans {
+    display: none;
+  }
+  .navbar-img-container {
+    justify-content: center;
+  }
+
+  .navbar__anchor:hover {
+    color: var(--blue2);
+  }
 }

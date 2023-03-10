@@ -11,12 +11,12 @@ function App() {
   return (
     <div className="App" id="jump-home">
       <Navbar />
-      <Hero />
-      <Projects />
-      <About />
-      <Skills />
-      <Footer />
-      <LeftBar />
+      {/* <Hero /> */}
+      {/* <Projects /> */}
+      {/* <About /> */}
+      {/* <Skills /> */}
+      {/* <Footer /> */}
+      {/* <LeftBar /> */}
     </div>
   );
 }

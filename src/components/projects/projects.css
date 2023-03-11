@@ -103,4 +103,7 @@
   .card:not(:first-child) {
     margin-left: -20%;
   }
+  .projects {
+    gap: 2rem;
+  }
 }

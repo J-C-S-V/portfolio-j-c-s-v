@@ -1,26 +1,20 @@
-/* MOBILE VERSION */
-
 .skills {
   display: flex;
   flex-direction: column;
   margin: 30px 7% auto;
-  /* border: 1px solid white; */
 }
 
-.skills__line {
+.about__line {
   width: 80%;
   background-color: var(--blue2);
   margin-left: 0.5rem;
-  height: 2px;
+  height: 1px;
 }
 
-.skills__header-container {
+.about__header-container {
   display: inline-flex;
   align-items: center;
   padding: 1rem 0 1rem;
-  /* height: 220px; */
-  /* margin: 10px 20% -200px; */
-  /* border: 1px solid black; */
 }
 
 .skills__soft-hard {
@@ -41,9 +35,17 @@
   margin-bottom: 0.2rem;
 }
 
-.skills__soft {
-  display: block;
-}
 .skills__hard {
   align-self: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .skills {
+    margin: 7% 7% auto;
+  }
+
+  .skills__soft-hard {
+    width: 70%;
+    align-self: center;
+  }
 }

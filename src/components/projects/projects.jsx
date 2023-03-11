@@ -130,7 +130,7 @@ export function Projects() {
               <GrGithub />
             </li>
             <li className="tags__tech">
-              <GrReactjs />
+              <IoLogoCss3 />
             </li>
             <li className="tags__tech">
               <AiFillHtml5 />

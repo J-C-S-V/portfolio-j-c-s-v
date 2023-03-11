@@ -11,10 +11,10 @@ export function Hero() {
         the web.
       </h2>
       <p className="hero__description elements">
-        As a front-end web developer with a strong interest in the backend, I am
-        excited to present my portfolio website. Through this platform, I aim to
-        demonstrate my skills and secure my first opportunity as a web
-        developer. 🤩
+        As a front-end web developer With a strong interest in both front-end
+        and backend, I am thrilled to showcase my portfolio website through this
+        platform and to demonstrate my skills that I've aquired with the
+        folowing projects. 😃✨💻
       </p>
     </section>
   );

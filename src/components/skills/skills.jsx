@@ -4,9 +4,9 @@ import './skills.css';
 export function Skills() {
   return (
     <section className="skills">
-      <header className="skills__header-container">
-        <div className="skills__header">Skills</div>
-        <span className="skills__line"></span>
+      <header className="about__header-container">
+        <div className="about__header">Skills</div>
+        <span className="about__line"></span>
       </header>
       <section className="skills__soft-hard">
         <article className="skills__soft">
@@ -34,19 +34,4 @@ export function Skills() {
       </section>
     </section>
   );
-}
-
-{
-  /* <svg
-  className="skills__svg"
-  fill="#da2d6d"
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 500 550"
->
-  <path
-    fill="#480aab"
-    fill-opacity="1"
-    d="M501.01,555.66 C449.66,524.85 478.99,209.04 510.60,620.90 L0.45,549.74 L499.88,-1.46 Z"
-  ></path>
-</svg> */
 }

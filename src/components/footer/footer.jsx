@@ -11,7 +11,7 @@ export function Footer() {
         </header>
 
         <section className="contact__email containers">
-          <p className="contact-text2">If you want to hire me:</p>
+          <p className="contact-text2">If you want to say hello:</p>
           <a className="contact__anchor" href="mailto:juansan1993@hotmail.com">
             Get in touch 👋📧
           </a>

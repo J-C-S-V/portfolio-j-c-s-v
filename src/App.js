@@ -21,12 +21,10 @@ function App() {
       <Skills />
       <Footer />
       <LeftBar />
-      {/* <Modal /> */}
       <Modal estado={modal1} cambiarEstado={setModal}>
         <Contenido>
-          {/* <h1>Ventana modal</h1>
-          <p>Reutilizable y con opciones de personalización</p> */}
           <svg
+            onClick={() => setModal(!modal1)}
             id="close"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -55,8 +53,11 @@ const Contenido = styled.div`
   width: 200%;
   color: #000;
   svg {
-    color: white;
-    background-color: black;
+    color: black;
+    align-self: flex-end;
+    margin: 0 -10px 4px 0;
+    width: 2rem;
+    height: 1.3rem;
   }
 `;
 

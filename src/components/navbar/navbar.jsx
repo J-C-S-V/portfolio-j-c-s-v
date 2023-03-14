@@ -1,6 +1,7 @@
 import React from 'react';
 import './navbar.css';
-export function Navbar() {
+
+export function Navbar({ cambiarEstado }) {
   return (
     <div className="navbar">
       <div className="navbar-img-container">
@@ -11,7 +12,7 @@ export function Navbar() {
           title="Thank you for visiting my website 🤓"
         />
         <span className="navbar-img-container__name">Juan Sanchez</span>
-        <div className="spans">
+        <div className="spans" onClick={() => cambiarEstado(true)}>
           <span className="spans__unit"></span>
           <span className="spans__unit"></span>
           <span className="spans__unit"></span>

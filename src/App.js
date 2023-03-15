@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Navbar } from './components/navbar/Navbar';
+import { Navbar } from './components/navbar/Navbar.jsx';
 import { Hero } from './components/hero/Hero.jsx';
 import { LeftBar } from './components/leftbar/Leftbar.jsx';
 import { Projects } from './components/projects/Projects.jsx';

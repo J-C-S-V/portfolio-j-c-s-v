@@ -32,17 +32,15 @@ const Overlay = styled.div`
   position: fixed;
   top: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  // margin-left: 100%;
   animation: ${fadeOut} 0.5s ease-in-out;
 `;
 
 const ContenedorModal = styled.div`
   display: flex;
   align-items: flex-end;
-  width: 50%;
-  min-height: 50%;
+  min-height: 40%;
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
-  margin-left: -150px;
+  margin-top: 20%;
 `;

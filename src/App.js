@@ -6,7 +6,7 @@ import { Projects } from './components/projects/Projects.jsx';
 import { Footer } from './components/footer/Footer.jsx';
 import { About } from './components/about/About.jsx';
 import { Skills } from './components/skills/Skills.jsx';
-import { Modal } from './components/portals/Modal.jsx';
+import { Modal } from './components/modals/Modal.jsx';
 import styled from 'styled-components';
 import './App.css';
 

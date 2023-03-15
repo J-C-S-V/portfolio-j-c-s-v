@@ -17,6 +17,7 @@ function App() {
       <Navbar cambiarEstado={setModal} />
       <Hero />
       <Projects />
+      <Projects />
       <About />
       <Skills />
       <Footer />
@@ -36,7 +37,14 @@ function App() {
             <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
           </svg>
           <Boton onClick={() => setModal(!modal1)}>Home</Boton>
-          <Boton onClick={() => setModal(!modal1)}>Projects</Boton>
+          <Boton
+            onClick={() => {
+              setModal(!modal1);
+              window.location.href = '#jump-projects';
+            }}
+          >
+            Projects
+          </Boton>
           <Boton
             onClick={() => {
               setModal(!modal1);
@@ -45,7 +53,14 @@ function App() {
           >
             About
           </Boton>
-          <Boton onClick={() => setModal(!modal1)}>Contact</Boton>
+          <Boton
+            onClick={() => {
+              setModal(!modal1);
+              window.location.href = '#jump-contact';
+            }}
+          >
+            Contact
+          </Boton>
         </Contenido>
       </Modal>
     </div>

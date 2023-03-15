@@ -7,7 +7,7 @@ import { SiJavascript } from 'react-icons/si';
 import { IoLogoCss3 } from 'react-icons/io';
 export function Projects() {
   return (
-    <div className="projects">
+    <div className="projects" id="jump-projects">
       <header className="about__header-container">
         <div className="about__header">Projects</div>
         <span className="about__line"></span>

@@ -37,7 +37,14 @@ function App() {
           </svg>
           <Boton onClick={() => setModal(!modal1)}>Home</Boton>
           <Boton onClick={() => setModal(!modal1)}>Projects</Boton>
-          <Boton onClick={() => setModal(!modal1)}>About</Boton>
+          <Boton
+            onClick={() => {
+              setModal(!modal1);
+              window.location.href = '#jump-about';
+            }}
+          >
+            About
+          </Boton>
           <Boton onClick={() => setModal(!modal1)}>Contact</Boton>
         </Contenido>
       </Modal>

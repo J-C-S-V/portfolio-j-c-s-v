@@ -33,6 +33,7 @@ export function Projects() {
           <ul className="tags">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/J-C-S-V/Rock-Paper-Scissors"
               className="tags__tech tags__tech--github"
             >
@@ -68,6 +69,7 @@ export function Projects() {
           <ul className="tags">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/J-C-S-V/snake_game"
               className="tags__tech tags__tech--github"
             >
@@ -103,6 +105,7 @@ export function Projects() {
           <ul className="tags">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/J-C-S-V/clicks_counter"
               className="tags__tech tags__tech--github"
             >

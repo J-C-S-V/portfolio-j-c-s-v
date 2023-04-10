@@ -32,6 +32,7 @@ export function ProjectsTwo() {
           <ul className="tags">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/J-C-S-V/The-Ethics-of-AI-conference"
               className="tags__tech tags__tech--github"
             >
@@ -67,6 +68,7 @@ export function ProjectsTwo() {
           <ul className="tags">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/J-C-S-V/bootstrap_project"
               className="tags__tech tags__tech--github"
             >
@@ -102,6 +104,7 @@ export function ProjectsTwo() {
           <ul className="tags">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/J-C-S-V/typing_speed_test"
               className="tags__tech tags__tech--github"
             >

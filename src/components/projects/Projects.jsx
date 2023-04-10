@@ -12,6 +12,7 @@ export function Projects() {
         <div className="about__header">Projects</div>
         <span className="about__line"></span>
       </header>
+
       <section class="cards">
         <article class="card">
           <header class="card__header">
@@ -25,14 +26,18 @@ export function Projects() {
             <img
               className="img__cards"
               src={require('../../images/rock_paper_scissors_img.png')}
-              alt="snake-game"
+              alt="rock-paper-scissors"
             />
           </a>
           <h2 className="technologies">Technologies</h2>
           <ul className="tags">
-            <li className="tags__tech">
+            <a
+              target="_blank"
+              href="https://github.com/J-C-S-V/Rock-Paper-Scissors"
+              className="tags__tech tags__tech--github"
+            >
               <GrGithub />
-            </li>
+            </a>
             <li className="tags__tech">
               <IoLogoCss3 />
             </li>
@@ -46,7 +51,7 @@ export function Projects() {
         </article>
         <article class="card">
           <header class="card__header">
-            <h2 className="card__header-text">Snake</h2>
+            <h2 className="card__header-text">Snake game</h2>
           </header>
           <a
             className="card__anchor"
@@ -61,9 +66,13 @@ export function Projects() {
           </a>
           <h2 className="technologies">Technologies</h2>
           <ul className="tags">
-            <li className="tags__tech">
+            <a
+              target="_blank"
+              href="https://github.com/J-C-S-V/snake_game"
+              className="tags__tech tags__tech--github"
+            >
               <GrGithub />
-            </li>
+            </a>
             <li className="tags__tech">
               <IoLogoCss3 />
             </li>
@@ -92,9 +101,13 @@ export function Projects() {
           </a>
           <h2 className="technologies">Technologies</h2>
           <ul className="tags">
-            <li className="tags__tech">
+            <a
+              target="_blank"
+              href="https://github.com/J-C-S-V/clicks_counter"
+              className="tags__tech tags__tech--github"
+            >
               <GrGithub />
-            </li>
+            </a>
             <li className="tags__tech">
               <GrReactjs />
             </li>
@@ -107,37 +120,6 @@ export function Projects() {
             {/* <li className="tags__tech">
               <IoLogoCss3 />
             </li> */}
-          </ul>
-        </article>
-        <article class="card">
-          <header class="card__header">
-            <h2 className="card__header-text">Typing speed test</h2>
-          </header>
-          <a
-            className="card__anchor"
-            target="_bla"
-            href="https://creative-entremet-225e0d.netlify.app/"
-          >
-            <img
-              className="img__cards"
-              src={require('../../images/typing_speed_test_img.png')}
-              alt="snake-game"
-            />
-          </a>
-          <h2 className="technologies">Technologies</h2>
-          <ul className="tags">
-            <li className="tags__tech">
-              <GrGithub />
-            </li>
-            <li className="tags__tech">
-              <IoLogoCss3 />
-            </li>
-            <li className="tags__tech">
-              <AiFillHtml5 />
-            </li>
-            <li className="tags__tech">
-              <SiJavascript />
-            </li>
           </ul>
         </article>
       </section>

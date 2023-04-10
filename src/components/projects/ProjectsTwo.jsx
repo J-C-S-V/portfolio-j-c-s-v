@@ -1,32 +1,31 @@
 import React from 'react';
 import './projects.css';
 import { GrGithub } from 'react-icons/gr';
-import { GrReactjs } from 'react-icons/gr';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { SiJavascript } from 'react-icons/si';
 import { IoLogoCss3 } from 'react-icons/io';
-export function Projects() {
+import { FaBootstrap } from 'react-icons/fa';
+export function ProjectsTwo() {
   return (
     <div className="projects" id="jump-projects">
       <header className="about__header-container">
         <div className="about__header">Projects</div>
         <span className="about__line"></span>
       </header>
-
       <section class="cards">
         <article class="card">
           <header class="card__header">
-            <h2 className="card__header-text">Rock paper scissors</h2>
+            <h2 className="card__header-text">The ethics of AI</h2>
           </header>
           <a
             className="card__anchor"
             target="_bla"
-            href="https://luxury-swan-136d4f.netlify.app/"
+            href="https://j-c-s-v.github.io/The-Ethics-of-AI-conference/index.html"
           >
             <img
               className="img__cards"
-              src={require('../../images/rock_paper_scissors_img.png')}
-              alt="rock-paper-scissors"
+              src={require('../../images/the_ethics_of_ai_conference.png')}
+              alt="the ethics of AI conference"
             />
           </a>
           <h2 className="technologies">Technologies</h2>
@@ -34,7 +33,7 @@ export function Projects() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/J-C-S-V/Rock-Paper-Scissors"
+              href="https://github.com/J-C-S-V/The-Ethics-of-AI-conference"
               className="tags__tech tags__tech--github"
             >
               <GrGithub />
@@ -52,17 +51,17 @@ export function Projects() {
         </article>
         <article class="card">
           <header class="card__header">
-            <h2 className="card__header-text">Snake game</h2>
+            <h2 className="card__header-text">Marketing agency</h2>
           </header>
           <a
             className="card__anchor"
             target="_bla"
-            href="https://hilarious-medovik-3cda2f.netlify.app/"
+            href="https://vermillion-gnome-154b58.netlify.app/"
           >
             <img
               className="img__cards"
-              src={require('../../images/snake_game_img.png')}
-              alt="snake-game"
+              src={require('../../images/digital_marketing_agency.png')}
+              alt="marketing agency"
             />
           </a>
           <h2 className="technologies">Technologies</h2>
@@ -70,7 +69,7 @@ export function Projects() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/J-C-S-V/snake_game"
+              href="https://github.com/J-C-S-V/bootstrap_project"
               className="tags__tech tags__tech--github"
             >
               <GrGithub />
@@ -82,22 +81,22 @@ export function Projects() {
               <AiFillHtml5 />
             </li>
             <li className="tags__tech">
-              <SiJavascript />
+              <FaBootstrap />
             </li>
           </ul>
         </article>
         <article class="card">
           <header class="card__header">
-            <h2 className="card__header-text">Clicks counter</h2>
+            <h2 className="card__header-text">Typing speed test</h2>
           </header>
           <a
             className="card__anchor"
             target="_bla"
-            href="https://incomparable-pothos-f8cec3.netlify.app/"
+            href="https://creative-entremet-225e0d.netlify.app/"
           >
             <img
               className="img__cards"
-              src={require('../../images/clicks_counter_img.png')}
+              src={require('../../images/typing_speed_test_img.png')}
               alt="snake-game"
             />
           </a>
@@ -106,14 +105,12 @@ export function Projects() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/J-C-S-V/clicks_counter"
+              href="https://github.com/J-C-S-V/typing_speed_test"
               className="tags__tech tags__tech--github"
             >
               <GrGithub />
             </a>
-            <li className="tags__tech">
-              <GrReactjs />
-            </li>
+
             <li className="tags__tech">
               <AiFillHtml5 />
             </li>

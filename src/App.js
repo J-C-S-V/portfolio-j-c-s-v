@@ -3,6 +3,7 @@ import { Navbar } from './components/navbar/Navbar.jsx';
 import { Hero } from './components/hero/Hero.jsx';
 import { LeftBar } from './components/leftbar/Leftbar.jsx';
 import { Projects } from './components/projects/Projects.jsx';
+import { ProjectsTwo } from './components/projects/ProjectsTwo.jsx';
 import { Footer } from './components/footer/Footer.jsx';
 import { About } from './components/about/About.jsx';
 import { Skills } from './components/skills/Skills.jsx';
@@ -16,7 +17,7 @@ function App() {
     <div className="App" id="jump-home">
       <Navbar cambiarEstado={setModal} />
       <Hero />
-      <Projects />
+      <ProjectsTwo />
       <Projects />
       <About />
       <Skills />

@@ -17,8 +17,8 @@ function App() {
     <div className="App" id="jump-home">
       <Navbar cambiarEstado={setModal} />
       <Hero />
-      <Projects />
       <ProjectsTwo />
+      <Projects />
       <About />
       <Skills />
       <Footer />

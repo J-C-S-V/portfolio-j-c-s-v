@@ -12,7 +12,6 @@ export function LeftBar() {
         title="LinkedIn"
         rel="noreferrer"
         target="_blank"
-        rel="noreferrer"
         href="https://www.linkedin.com/in/juan-carlos-sanchez-vargas-a308b014b/"
       >
         <AiFillLinkedin />
@@ -22,7 +21,6 @@ export function LeftBar() {
         title="GitHub"
         rel="noreferrer"
         target="_blank"
-        rel="noreferrer"
         href="https://github.com/J-C-S-V"
       >
         <AiFillGithub />
@@ -32,7 +30,6 @@ export function LeftBar() {
         title="Twitter"
         rel="noreferrer"
         target="_blank"
-        rel="noreferrer"
         href="https://twitter.com/juansan0"
       >
         <AiOutlineTwitter />

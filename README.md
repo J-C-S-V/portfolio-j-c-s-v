@@ -4,13 +4,13 @@ In this portfolio, you can see my recent projects and have access to their live 
 
 ## Built With
 
-- Major languages: HTML, SCSS, JS
-- Frameworks: React
+- Major languages: JavaScript ES6, CSS3, HTML.
+- Library: React.js
 - Technologies used: VSCode, Chrome, Git/GitHub
 
 ## Live Demo
 
-<!-- [Live](https://portfolio-giuseppe.herokuapp.com/) -->
+[Live demo](https://j-c-s-v-portfolio.netlify.app/)
 
 ## Authors
 

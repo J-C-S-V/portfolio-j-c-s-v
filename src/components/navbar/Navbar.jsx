@@ -1,9 +1,8 @@
-import React from 'react';
 import './navbar.css';
 import PropTypes from 'prop-types';
 import profilePicOne from '../../images/profile_pic1.jpg';
 
-export default function Navbar({ cambiarEstado }) {
+export default function Navbar({ changeState }) {
   return (
     <div className="navbar">
       <div className="navbar-img-container">
@@ -17,8 +16,8 @@ export default function Navbar({ cambiarEstado }) {
         <span
           type="button"
           className="spans"
-          onClick={() => cambiarEstado(true)}
-          onKeyDown={() => cambiarEstado(true)}
+          onClick={() => changeState(true)}
+          onKeyDown={() => changeState(true)}
           role="button"
           tabIndex={0}
         >
@@ -58,5 +57,5 @@ export default function Navbar({ cambiarEstado }) {
 }
 
 Navbar.propTypes = {
-  cambiarEstado: PropTypes.func.isRequired,
+  changeState: PropTypes.func.isRequired,
 };

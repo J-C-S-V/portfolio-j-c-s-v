@@ -1,13 +1,12 @@
-import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import PropTypes from 'prop-types';
 
-export default function Modal({ children, estado }) {
+export default function Modal({ children, state }) {
   return (
     <>
-      {estado && (
+      {state && (
         <Overlay>
-          <ContenedorModal>{children}</ContenedorModal>
+          <ModalContainer>{children}</ModalContainer>
         </Overlay>
       )}
     </>
@@ -16,7 +15,7 @@ export default function Modal({ children, estado }) {
 
 Modal.propTypes = {
   children: PropTypes.node.isRequired,
-  estado: PropTypes.bool.isRequired,
+  state: PropTypes.bool.isRequired,
 };
 
 const fadeOut = keyframes`
@@ -41,7 +40,7 @@ const Overlay = styled.div`
   animation: ${fadeOut} 0.5s ease-in-out;
 `;
 
-const ContenedorModal = styled.div`
+const ModalContainer = styled.div`
   display: flex;
   align-items: flex-end;
   min-height: 40%;

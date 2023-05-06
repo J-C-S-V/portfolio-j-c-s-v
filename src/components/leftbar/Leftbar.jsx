@@ -1,4 +1,3 @@
-import React from 'react';
 import './leftbar.css';
 import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
 

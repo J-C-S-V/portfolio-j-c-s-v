@@ -15,15 +15,15 @@ function App() {
   const [modal1, setModal] = useState(false);
   return (
     <div className="App" id="jump-home">
-      <Navbar cambiarEstado={setModal} />
+      <Navbar changeState={setModal} />
       <Hero />
-      <ProjectsTwo />
       <Projects />
+      <ProjectsTwo />
       <About />
       <Skills />
       <Footer />
       <LeftBar />
-      <Modal estado={modal1} cambiarEstado={setModal}>
+      <Modal state={modal1} changeState={setModal}>
         <Contenido>
           <svg
             onClick={() => setModal(!modal1)}

@@ -1,23 +1,31 @@
-import React from 'react';
 import './navbar.css';
+import PropTypes from 'prop-types';
+import profilePicOne from '../../images/profile_pic1.jpg';
 
-export function Navbar({ cambiarEstado }) {
+export default function Navbar({ changeState }) {
   return (
     <div className="navbar">
       <div className="navbar-img-container">
         <img
           className="navbar-img-container__img"
-          src={require('../../images/profile_pic1.jpg')}
+          src={profilePicOne}
           alt="Juan Sanchez's face"
           title="Thank you for visiting my website 🤓"
         />
         <span className="navbar-img-container__name">Juan Sanchez</span>
-        <div className="spans" onClick={() => cambiarEstado(true)}>
-          <span className="spans__unit"></span>
-          <span className="spans__unit"></span>
-          <span className="spans__unit"></span>
-          <span className="spans__unit"></span>
-        </div>
+        <span
+          type="button"
+          className="spans"
+          onClick={() => changeState(true)}
+          onKeyDown={() => changeState(true)}
+          role="button"
+          tabIndex={0}
+        >
+          <span className="spans__unit" />
+          <span className="spans__unit" />
+          <span className="spans__unit" />
+          <span className="spans__unit" />
+        </span>
       </div>
       <div className="navbar__list">
         <ul className="navbar__ul">
@@ -47,3 +55,7 @@ export function Navbar({ cambiarEstado }) {
     </div>
   );
 }
+
+Navbar.propTypes = {
+  changeState: PropTypes.func.isRequired,
+};

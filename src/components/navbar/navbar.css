@@ -41,6 +41,7 @@
   height: 100%;
   width: 10%;
   margin-left: auto;
+  padding: 0.2rem;
 }
 
 .spans__unit {
@@ -80,6 +81,13 @@
 
 .navbar__list {
   display: none;
+}
+
+.spans:hover {
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: var(--white2);
+  color: var(--blue2);
 }
 
 @media screen and (min-width: 768px) {

@@ -1,12 +1,11 @@
-import React from 'react';
 import './skills.css';
 
-export function Skills() {
+export default function Skills() {
   return (
     <section className="skills">
       <header className="about__header-container">
         <div className="about__header">Skills</div>
-        <span className="about__line"></span>
+        <span className="about__line" />
       </header>
       <section className="skills__soft-hard">
         <article className="skills__soft">

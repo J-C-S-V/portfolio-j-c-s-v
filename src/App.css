@@ -34,3 +34,7 @@ a {
 li {
   list-style-type: none;
 }
+
+#close:hover {
+  cursor: pointer;
+}

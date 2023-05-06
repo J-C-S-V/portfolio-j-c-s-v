@@ -1,7 +1,8 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
+import PropTypes from 'prop-types';
 
-export function Modal({ children, estado }) {
+export default function Modal({ children, estado }) {
   return (
     <>
       {estado && (
@@ -12,6 +13,11 @@ export function Modal({ children, estado }) {
     </>
   );
 }
+
+Modal.propTypes = {
+  children: PropTypes.node.isRequired,
+  estado: PropTypes.bool.isRequired,
+};
 
 const fadeOut = keyframes`
 0% {

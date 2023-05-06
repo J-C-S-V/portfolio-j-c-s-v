@@ -1,10 +1,8 @@
 import React from 'react';
 import './leftbar.css';
-import { AiFillGithub } from 'react-icons/ai';
-import { AiOutlineTwitter } from 'react-icons/ai';
-import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
 
-export function LeftBar() {
+export default function LeftBar() {
   return (
     <div className="left-bar">
       <a

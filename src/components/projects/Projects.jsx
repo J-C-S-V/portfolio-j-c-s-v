@@ -1,21 +1,24 @@
 import React from 'react';
 import './projects.css';
-import { GrGithub } from 'react-icons/gr';
-import { GrReactjs } from 'react-icons/gr';
+import { GrGithub, GrReactjs } from 'react-icons/gr';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { SiJavascript } from 'react-icons/si';
 import { IoLogoCss3 } from 'react-icons/io';
-export function Projects() {
+import rockPaperScissors from '../../images/rock_paper_scissors_img.png';
+import snakeGame from '../../images/snake_game_img.png';
+import clicksCounter from '../../images/clicks_counter_img.png';
+
+export default function Projects() {
   return (
     <div className="projects" id="jump-projects">
       <header className="about__header-container">
         <div className="about__header">Projects</div>
-        <span className="about__line"></span>
+        <span className="about__line" />
       </header>
 
-      <section class="cards">
-        <article class="card">
-          <header class="card__header">
+      <section className="cards">
+        <article className="card">
+          <header className="card__header">
             <h2 className="card__header-text">Rock paper scissors</h2>
           </header>
           <a
@@ -25,7 +28,7 @@ export function Projects() {
           >
             <img
               className="img__cards"
-              src={require('../../images/rock_paper_scissors_img.png')}
+              src={rockPaperScissors}
               alt="rock-paper-scissors"
             />
           </a>
@@ -50,8 +53,8 @@ export function Projects() {
             </li>
           </ul>
         </article>
-        <article class="card">
-          <header class="card__header">
+        <article className="card">
+          <header className="card__header">
             <h2 className="card__header-text">Snake game</h2>
           </header>
           <a
@@ -59,11 +62,7 @@ export function Projects() {
             target="_bla"
             href="https://hilarious-medovik-3cda2f.netlify.app/"
           >
-            <img
-              className="img__cards"
-              src={require('../../images/snake_game_img.png')}
-              alt="snake-game"
-            />
+            <img className="img__cards" src={snakeGame} alt="snake-game" />
           </a>
           <h2 className="technologies">Technologies</h2>
           <ul className="tags">
@@ -86,8 +85,8 @@ export function Projects() {
             </li>
           </ul>
         </article>
-        <article class="card">
-          <header class="card__header">
+        <article className="card">
+          <header className="card__header">
             <h2 className="card__header-text">Clicks counter</h2>
           </header>
           <a
@@ -95,11 +94,7 @@ export function Projects() {
             target="_bla"
             href="https://incomparable-pothos-f8cec3.netlify.app/"
           >
-            <img
-              className="img__cards"
-              src={require('../../images/clicks_counter_img.png')}
-              alt="snake-game"
-            />
+            <img className="img__cards" src={clicksCounter} alt="snake-game" />
           </a>
           <h2 className="technologies">Technologies</h2>
           <ul className="tags">

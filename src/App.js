@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import { Navbar } from './components/navbar/Navbar.jsx';
-import { Hero } from './components/hero/Hero.jsx';
-import { LeftBar } from './components/leftbar/Leftbar.jsx';
-import { Projects } from './components/projects/Projects.jsx';
-import { ProjectsTwo } from './components/projects/ProjectsTwo.jsx';
-import { Footer } from './components/footer/Footer.jsx';
-import { About } from './components/about/About.jsx';
-import { Skills } from './components/skills/Skills.jsx';
-import { Modal } from './components/modals/Modal.jsx';
 import styled from 'styled-components';
+import Navbar from './components/navbar/Navbar';
+import Hero from './components/hero/Hero';
+import LeftBar from './components/leftbar/Leftbar';
+import Projects from './components/projects/Projects';
+import ProjectsTwo from './components/projects/ProjectsTwo';
+import Footer from './components/footer/Footer';
+import About from './components/about/About';
+import Skills from './components/skills/Skills';
+import Modal from './components/modals/Modal';
 import './App.css';
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-x "
+            className="bi bi-x "
             viewBox="0 0 16 16"
           >
             <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />

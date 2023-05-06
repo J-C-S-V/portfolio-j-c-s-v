@@ -5,16 +5,20 @@ import { AiFillHtml5 } from 'react-icons/ai';
 import { SiJavascript } from 'react-icons/si';
 import { IoLogoCss3 } from 'react-icons/io';
 import { FaBootstrap } from 'react-icons/fa';
-export function ProjectsTwo() {
+import digitalMarketingAgency from '../../images/digital_marketing_agency.png';
+import theEthicsOfAIConference from '../../images/the_ethics_of_ai_conference.png';
+import typingSpeedTest from '../../images/typing_speed_test_img.png';
+
+export default function ProjectsTwo() {
   return (
     <div className="projects" id="jump-projects">
       <header className="about__header-container">
         <div className="about__header">Projects</div>
-        <span className="about__line"></span>
+        <span className="about__line" />
       </header>
-      <section class="cards">
-        <article class="card">
-          <header class="card__header">
+      <section className="cards">
+        <article className="card">
+          <header className="card__header">
             <h2 className="card__header-text">The ethics of AI</h2>
           </header>
           <a
@@ -24,7 +28,7 @@ export function ProjectsTwo() {
           >
             <img
               className="img__cards"
-              src={require('../../images/the_ethics_of_ai_conference.png')}
+              src={theEthicsOfAIConference}
               alt="the ethics of AI conference"
             />
           </a>
@@ -49,8 +53,8 @@ export function ProjectsTwo() {
             </li>
           </ul>
         </article>
-        <article class="card">
-          <header class="card__header">
+        <article className="card">
+          <header className="card__header">
             <h2 className="card__header-text">Marketing agency</h2>
           </header>
           <a
@@ -60,7 +64,7 @@ export function ProjectsTwo() {
           >
             <img
               className="img__cards"
-              src={require('../../images/digital_marketing_agency.png')}
+              src={digitalMarketingAgency}
               alt="marketing agency"
             />
           </a>
@@ -85,8 +89,8 @@ export function ProjectsTwo() {
             </li>
           </ul>
         </article>
-        <article class="card">
-          <header class="card__header">
+        <article className="card">
+          <header className="card__header">
             <h2 className="card__header-text">Typing speed test</h2>
           </header>
           <a
@@ -96,7 +100,7 @@ export function ProjectsTwo() {
           >
             <img
               className="img__cards"
-              src={require('../../images/typing_speed_test_img.png')}
+              src={typingSpeedTest}
               alt="snake-game"
             />
           </a>

@@ -1,13 +1,13 @@
 import React from 'react';
 import './footer.css';
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer>
       <section className="contact" id="jump-contact">
         <header className="contact__header-container">
           <div className="contact__header">Contact</div>
-          <span className="contact__line"></span>
+          <span className="contact__line" />
         </header>
 
         <section className="contact__email containers">

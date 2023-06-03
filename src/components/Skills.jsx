@@ -1,8 +1,14 @@
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import '../styles/skills.css';
 
 export default function Skills() {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <section className="skills">
+    <section className="skills" data-aos="fade-up">
       <header className="about__header-container">
         <div className="about__header">Skills</div>
         <span className="about__line" />

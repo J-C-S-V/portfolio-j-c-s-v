@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import PropTypes from 'prop-types';
 import '../styles/projects.css';
 
@@ -11,9 +14,12 @@ export default function Card({
   techThree,
   techFour,
 }) {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
-      <article className="card">
+      <article className="card" data-aos="flip-left">
         <header className="card__header">
           <h2 className="card__header-text">{title}</h2>
         </header>

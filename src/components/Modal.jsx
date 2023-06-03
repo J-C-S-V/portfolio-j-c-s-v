@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 export default function Modal({ children, state }) {
@@ -18,26 +18,15 @@ Modal.propTypes = {
   state: PropTypes.bool.isRequired,
 };
 
-const fadeOut = keyframes`
-0% {
-  margin-left: 100%;
-}
-
-100% {
-  margin-left: 0%;
-}
-`;
-
 const Overlay = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
   height: 100%;
-  width: 100%;
+  width: 75%;
   position: fixed;
   top: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  animation: ${fadeOut} 0.5s ease-in-out;
 `;
 
 const ModalContainer = styled.div`

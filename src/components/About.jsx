@@ -1,5 +1,5 @@
-import './about.css';
-import profilePicTwo from '../../images/profile_pic2.jpg';
+import '../styles/about.css';
+import profilePicTwo from '../assets/images/profile_pic2.jpg';
 
 export default function About() {
   return (

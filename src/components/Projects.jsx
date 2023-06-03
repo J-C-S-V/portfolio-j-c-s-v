@@ -1,16 +1,21 @@
-import './projects.css';
+import { useEffect } from 'react';
 import { GrGithub, GrReactjs } from 'react-icons/gr';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { SiJavascript } from 'react-icons/si';
 import { IoLogoCss3 } from 'react-icons/io';
-import rockPaperScissors from '../../images/rock_paper_scissors_img.png';
-import snakeGame from '../../images/snake_game_img.png';
-import clicksCounter from '../../images/clicks_counter_img.png';
-import Card from '../card/Card';
+import aos from 'aos';
+import rockPaperScissors from '../assets/images/rock_paper_scissors_img.png';
+import snakeGame from '../assets/images/snake_game_img.png';
+import clicksCounter from '../assets/images/clicks_counter_img.png';
+import Card from './Card';
+import '../styles/projects.css';
 
 export default function Projects() {
+  useEffect(() => {
+    aos.init({ duration: 1000 });
+  }, []);
   return (
-    <div className="projects" id="jump-projects">
+    <div data-aos="fade-up" className="projects" id="jump-projects">
       <header className="about__header-container">
         <div className="about__header">Projects</div>
         <span className="about__line" />

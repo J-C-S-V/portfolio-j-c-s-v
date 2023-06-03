@@ -23,7 +23,7 @@
   justify-content: space-around;
   padding: 0 2rem;
   height: 70vh;
-  background-image: url('../../images/skills_image.png');
+  background-image: url('../assets/images/skills_image.png');
   background-size: cover;
   background-repeat: round;
   border-radius: 1rem;

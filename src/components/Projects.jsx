@@ -1,12 +1,18 @@
 import { useEffect } from 'react';
 import { GrGithub, GrReactjs } from 'react-icons/gr';
-import { AiFillHtml5 } from 'react-icons/ai';
-import { SiJavascript } from 'react-icons/si';
+// import { AiFillHtml5 } from 'react-icons/ai';
+import {
+  SiJavascript,
+  SiRedux,
+  SiJest,
+  SiWebpack,
+} from 'react-icons/si';
 import { IoLogoCss3 } from 'react-icons/io';
+import { FaBootstrap, FaSass } from 'react-icons/fa';
 import aos from 'aos';
-import rockPaperScissors from '../assets/images/rock_paper_scissors_img.png';
-import snakeGame from '../assets/images/snake_game_img.png';
-import clicksCounter from '../assets/images/clicks_counter_img.png';
+import spaceTravelersHub from '../assets/images/space_travelers_hub.jpg';
+import mathMagicians from '../assets/images/math_magicians.jpg';
+import toDoList from '../assets/images/to_do_list.jpg';
 import Card from './Card';
 import '../styles/projects.css';
 
@@ -23,34 +29,34 @@ export default function Projects() {
 
       <section className="cards">
         <Card
-          img={rockPaperScissors}
-          title="Rock paper scissors"
-          urlLive="https://luxury-swan-136d4f.netlify.app/"
-          urlGithub="https://github.com/J-C-S-V/Rock-Paper-Scissors"
-          tech={<GrGithub />}
-          techTwo={<IoLogoCss3 />}
-          techThree={<AiFillHtml5 />}
-          techFour={<SiJavascript />}
-        />
-        <Card
-          img={snakeGame}
-          title="Snake game"
-          urlLive="https://hilarious-medovik-3cda2f.netlify.app/"
-          urlGithub="https://github.com/J-C-S-V/snake_game"
-          tech={<GrGithub />}
-          techTwo={<IoLogoCss3 />}
-          techThree={<AiFillHtml5 />}
-          techFour={<SiJavascript />}
-        />
-        <Card
-          img={clicksCounter}
-          title="Clicks counter"
-          urlLive="https://incomparable-pothos-f8cec3.netlify.app/"
-          urlGithub="https://github.com/J-C-S-V/clicks_counter"
+          img={spaceTravelersHub}
+          title="Space traveler's hub"
+          urlLive="https://space-travelers-hub-project.netlify.app/"
+          urlGithub="https://github.com/J-C-S-V/spacex-project"
           tech={<GrGithub />}
           techTwo={<GrReactjs />}
-          techThree={<AiFillHtml5 />}
-          techFour={<SiJavascript />}
+          techThree={<SiRedux />}
+          techFour={<FaBootstrap />}
+        />
+        <Card
+          img={mathMagicians}
+          title="Math magicians"
+          urlLive="https://math-magicians-site.netlify.app/"
+          urlGithub="https://github.com/J-C-S-V/math-magicians"
+          tech={<GrGithub />}
+          techTwo={<GrReactjs />}
+          techThree={<FaSass />}
+          techFour={<SiJest />}
+        />
+        <Card
+          img={toDoList}
+          title="To do list"
+          urlLive="https://astonishing-stroopwafel-dc8220.netlify.app/"
+          urlGithub="https://github.com/J-C-S-V/webpack-to-do-list"
+          tech={<GrGithub />}
+          techTwo={<SiJavascript />}
+          techThree={<IoLogoCss3 />}
+          techFour={<SiWebpack />}
         />
       </section>
     </div>

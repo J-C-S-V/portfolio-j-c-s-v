@@ -18,22 +18,22 @@ export default function Skills() {
           <h2>Soft skills</h2>
           <br />
           <ul className="skills_ul">
-            <li className="skills__li">Assertive communication</li>
-            <li className="skills__li">Time management</li>
-            <li className="skills__li">Problem-solving</li>
-            <li className="skills__li">Adaptability</li>
-            <li className="skills__li">Collaboration</li>
+            <li className="skills__li">👨🏿‍🤝‍👨🏿 Assertive communication</li>
+            <li className="skills__li">⏲ Time management</li>
+            <li className="skills__li">🧠 Problem-solving</li>
+            <li className="skills__li">💼 Adaptability</li>
+            <li className="skills__li">🤝 Collaboration</li>
           </ul>
         </article>
         <article className="skills__hard">
           <h2>Hard skills</h2>
           <br />
           <ul className="skills__li">
-            <li className="skills__li">Reactjs</li>
-            <li className="skills__li">JavaScript ES6</li>
-            <li className="skills__li">CSS3</li>
+            <li className="skills__li">JavaScript</li>
+            <li className="skills__li">React</li>
             <li className="skills__li">SASS</li>
-            <li className="skills__li">HTML5</li>
+            <li className="skills__li">Bootstrap</li>
+            <li className="skills__li">HTML</li>
           </ul>
         </article>
       </section>

@@ -63,19 +63,17 @@
 }
 
 .tags__tech {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 2px;
   font-style: normal;
   font-weight: 700;
-  font-size: 0.5rem;
-  color: #7a7a8c;
   text-transform: uppercase;
   font-size: 0.66rem;
   border: 1px solid #515151;
   border-radius: 2rem;
   padding: 0.2rem 0.85rem 0.25rem;
-}
-
-.tags__tech {
   color: #e52e71;
   cursor: default;
 }

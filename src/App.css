@@ -10,9 +10,9 @@
   scroll-behavior: smooth;
 }
 :root {
-  --white: #ffffff;
+  --white: #fff;
   --white2: rgb(233, 233, 233);
-  --grey: #cccccc;
+  --grey: #ccc;
   --black-bg-color: #17141d;
   --black2: #2b353f;
   --blue: #00319b;

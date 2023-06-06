@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import Navbar from './components/navbar/Navbar';
-import Hero from './components/hero/Hero';
-import LeftBar from './components/leftbar/Leftbar';
-import Projects from './components/projects/Projects';
-import ProjectsTwo from './components/projects/ProjectsTwo';
-import Footer from './components/footer/Footer';
-import About from './components/about/About';
-import Skills from './components/skills/Skills';
-import Modal from './components/modals/Modal';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import LeftBar from './components/Leftbar';
+import Projects from './components/Projects';
+import ProjectsTwo from './components/ProjectsTwo';
+import Footer from './components/Footer';
+import About from './components/About';
+import Skills from './components/Skills';
+import Modal from './components/Modal';
 import './App.css';
 
 function App() {

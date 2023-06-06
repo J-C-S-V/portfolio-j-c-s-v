@@ -1,5 +1,8 @@
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import PropTypes from 'prop-types';
-import '../projects/projects.css';
+import '../styles/projects.css';
 
 export default function Card({
   img,
@@ -11,17 +14,16 @@ export default function Card({
   techThree,
   techFour,
 }) {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
-      <article className="card">
+      <article className="card" data-aos="flip-left">
         <header className="card__header">
           <h2 className="card__header-text">{title}</h2>
         </header>
-        <a
-          className="card__anchor"
-          target="_bla"
-          href={urlLive}
-        >
+        <a className="card__anchor" target="_bla" href={urlLive}>
           <img className="img__cards" src={img} alt="rock-paper-scissors" />
         </a>
         <h2 className="technologies">Technologies</h2>
@@ -35,13 +37,8 @@ export default function Card({
             {tech}
           </a>
           <li className="tags__tech">{techTwo}</li>
-          <li className="tags__tech">
-            {techThree}
-          </li>
-          <li className="tags__tech">
-            {techFour}
-          </li>
-
+          <li className="tags__tech">{techThree}</li>
+          <li className="tags__tech">{techFour}</li>
         </ul>
       </article>
     </>

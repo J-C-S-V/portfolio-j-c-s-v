@@ -1,6 +1,6 @@
-import './navbar.css';
+import '../styles/navbar.css';
 import PropTypes from 'prop-types';
-import profilePicOne from '../../images/profile_pic1.jpg';
+import profilePicOne from '../assets/images/profile_pic1.jpg';
 
 export default function Navbar({ changeState }) {
   return (

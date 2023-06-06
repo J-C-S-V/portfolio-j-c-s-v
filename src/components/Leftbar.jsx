@@ -1,4 +1,4 @@
-import './leftbar.css';
+import '../styles/leftbar.css';
 import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
 
 export default function LeftBar() {
@@ -9,7 +9,7 @@ export default function LeftBar() {
         title="LinkedIn"
         rel="noreferrer"
         target="_blank"
-        href="https://www.linkedin.com/in/juan-carlos-sanchez-vargas-a308b014b/"
+        href="https://www.linkedin.com/in/sanchez-juan-carlos/"
       >
         <AiFillLinkedin />
       </a>

@@ -1,9 +1,20 @@
-import './footer.css';
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import '../styles/footer.css';
 
 export default function Footer() {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <footer>
-      <section className="contact" id="jump-contact">
+      <section
+        className="contact"
+        id="jump-contact"
+        data-aos="fade-up"
+        data-aos-duration="500"
+      >
         <header className="contact__header-container">
           <div className="contact__header">Contact</div>
           <span className="contact__line" />

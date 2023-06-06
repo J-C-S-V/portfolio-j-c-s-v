@@ -43,24 +43,7 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  animation-name: breath;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
   border-radius: 10px;
-}
-
-@keyframes breath {
-  0% {
-    background-color: var(--grey);
-  }
-
-  50% {
-    background-color: var(--white);
-  }
-
-  100% {
-    background-color: var(--grey);
-  }
 }
 
 .contact__signature-container {

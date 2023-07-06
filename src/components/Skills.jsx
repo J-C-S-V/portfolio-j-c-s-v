@@ -22,7 +22,7 @@ export default function Skills() {
     Aos.init();
   }, []);
   return (
-    <section className="skills" data-aos="fade-up">
+    <section id="jump-skills" className="skills" data-aos="fade-up">
       <header className="about__header-container">
         <div className="about__header">Skills</div>
         <span className="about__line" />

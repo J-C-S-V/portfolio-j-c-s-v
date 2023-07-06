@@ -30,19 +30,19 @@ export default function Navbar({ changeState }) {
       <div className="navbar__list">
         <ul className="navbar__ul">
           <li className="navbar__li">
-            <a href="#jump-home" className="navbar__anchor">
-              Home
-            </a>
-          </li>
-
-          <li className="navbar__li">
             <a href="#jump-projects" className="navbar__anchor">
               Projects
             </a>
           </li>
+
           <li className="navbar__li">
             <a href="#jump-about" className="navbar__anchor">
               About
+            </a>
+          </li>
+          <li className="navbar__li">
+            <a href="#jump-skills" className="navbar__anchor">
+              Skills
             </a>
           </li>
           <li className="navbar__li">

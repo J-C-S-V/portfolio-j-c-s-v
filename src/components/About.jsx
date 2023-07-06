@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import '../styles/about.css';
-import profilePicTwo from '../assets/images/profile_pic2.png';
+import profilePicTwo from '../assets/images/profile_pic3.png';
 
 export default function About() {
   useEffect(() => {

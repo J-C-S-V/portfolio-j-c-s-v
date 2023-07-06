@@ -13,6 +13,7 @@
 
 .hero__description {
   font-size: 1rem;
+  order: 1;
 }
 
 .hero__name {
@@ -29,11 +30,22 @@
 
 .h2 {
   font-size: 1rem;
+  order: 1;
 }
 
 .h2__span {
   color: var(--blue2);
   padding: 3px;
+}
+
+.hero_aside {
+  display: flex;
+  justify-content: center;
+}
+
+.hero_img {
+  mask-image: linear-gradient(to top right, transparent, white);
+  width: 300px;
 }
 
 @media screen and (min-width: 768px) {

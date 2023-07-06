@@ -7,7 +7,6 @@
 .navbar {
   position: sticky;
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-around;
   max-width: 100%;
   background-color: var(--grey);
@@ -22,7 +21,7 @@
 }
 
 .navbar-img-container__img {
-  width: 27%;
+  width: 20%;
   border-radius: 50%;
   transition: ease-out 1s;
   border: solid 5px var(--grey);
@@ -91,6 +90,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .navbar-img-container__img {
+  width: 13%;
+  }
+
   .navbar-img-container__img:hover {
     transition: ease-in 1s;
     content: attr(title);

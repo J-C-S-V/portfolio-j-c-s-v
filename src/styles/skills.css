@@ -26,12 +26,10 @@
 }
 
 .skills__ul-hard {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  font-size: 0.8rem;
-  margin-bottom: 0.2rem;
-  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  text-align: center;
 }
 
 .skills__li-hard {
@@ -59,6 +57,10 @@
   .skills__li-hard {
     font-size: 2rem;
     margin: 0.5rem;
+  }
+
+  .skills_ul-soft {
+    padding: 0 7rem 2rem 7rem;
   }
 
   .skills__ul-hard {

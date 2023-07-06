@@ -18,8 +18,8 @@ export default function Hero() {
           as the cornerstone.
         </h2>
         <p className="hero__description elements">
-          As a front-end web developer, I am thrilled to showcase my portfolio website through this
-          platform and to demonstrate my skills that I&apos;ve acquired with the
+          As a web developer, I am thrilled to showcase this portfolio and
+          demonstrate the skills that I&apos;ve acquired with the
           folowing projects. If you like what you see and
           have a project you need coded, don&apos;t hestiate to contact me. 😃✨💻
         </p>

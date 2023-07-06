@@ -1,18 +1,18 @@
 import '../styles/navbar.css';
 import PropTypes from 'prop-types';
-import profilePicOne from '../assets/images/profile_pic1.jpg';
+import Logo from '../assets/images/logo.jpg';
 
 export default function Navbar({ changeState }) {
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="navbar-img-container">
         <img
           className="navbar-img-container__img"
-          src={profilePicOne}
-          alt="Juan Sanchez's face"
+          src={Logo}
+          alt="logo"
           title="Thank you for visiting my website 🤓"
         />
-        <span className="navbar-img-container__name">Juan Sanchez</span>
+        {/* <span className="navbar-img-container__name">Juan Sanchez</span> */}
         <span
           type="button"
           className="spans"
@@ -52,7 +52,7 @@ export default function Navbar({ changeState }) {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 }
 

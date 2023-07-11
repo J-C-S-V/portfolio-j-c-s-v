@@ -18,7 +18,6 @@
 .hero__name {
   color: var(--blue2);
   font-size: 1.4rem;
-  margin-left: 45px;
 }
 
 .hero__greeting {
@@ -36,19 +35,54 @@
   padding: 3px;
 }
 
+.hero_section-two {
+  display: flex;
+  justify-content: center;
+}
+
+.hero_img {
+  mask-image: linear-gradient(to top right, transparent, white);
+  width: 300px;
+}
+
 @media screen and (min-width: 768px) {
   .hero {
     display: grid;
-    margin: 4% 16% auto;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 0 4rem 7rem;
   }
+
+  .hero_section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 27px;
+  }
+
   .hero__name {
-    margin-left: 6rem;
     font-size: 2rem;
+    margin: 0;
   }
+
   .hero__greeting {
     font-size: 1rem;
+    margin: 0 0 2rem 0;
   }
+
   .hero__description {
-    margin: auto 16% 10%;
+    margin: 3rem 0 0 0;
+    text-align: left;
+  }
+
+  .h2 {
+    margin: 0;
+  }
+
+  .hero_section-two {
+    float: left;
+  }
+
+  .hero_img {
+    padding-bottom: 4rem;
   }
 }

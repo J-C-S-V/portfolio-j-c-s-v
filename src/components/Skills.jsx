@@ -22,7 +22,7 @@ export default function Skills() {
     Aos.init();
   }, []);
   return (
-    <section className="skills" data-aos="fade-up">
+    <section id="jump-skills" className="skills" data-aos="fade-up">
       <header className="about__header-container">
         <div className="about__header">Skills</div>
         <span className="about__line" />
@@ -31,11 +31,11 @@ export default function Skills() {
         <article className="skills__ul-soft">
           <h2 className="skills__h2">Soft skills</h2>
           <ul className="skills_ul-soft">
-            <li className="skills__li">👨🏿‍🤝‍👨🏿 Assertive communication</li>
-            <li className="skills__li">⏲ Time management</li>
-            <li className="skills__li">🧠 Problem-solving</li>
-            <li className="skills__li">💼 Adaptability</li>
-            <li className="skills__li">🤝 Collaboration</li>
+            <li className="skills__li">👨🏿‍🤝‍👨🏿 - Assertive communication</li>
+            <li className="skills__li">⏲ - Time management</li>
+            <li className="skills__li">🧠 - Problem-solving</li>
+            <li className="skills__li">💼 - Adaptability</li>
+            <li className="skills__li">🤝 - Collaboration</li>
           </ul>
         </article>
         <article className="skills__hard">

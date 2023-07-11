@@ -28,6 +28,7 @@
   max-width: 90%;
   border-radius: 50%;
   border: 5px solid var(--grey);
+  align-self: center;
 }
 
 .about__strong {

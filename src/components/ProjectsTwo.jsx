@@ -17,7 +17,7 @@ export default function Projects() {
         <Card
           img={digitalMarketingAgency}
           title="Marketing agency"
-          urlLive="https://vermillion-gnome-154b58.netlify.app/"
+          urlLive="https://marketing-agency-site.netlify.app/"
           urlGithub="https://github.com/J-C-S-V/bootstrap_project"
           tech={<GrGithub />}
           techTwo={<SiJavascript />}

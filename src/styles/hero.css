@@ -13,6 +13,7 @@
 
 .hero__description {
   font-size: 1rem;
+  line-height: 2rem;
 }
 
 .hero__name {
@@ -35,14 +36,14 @@
   padding: 3px;
 }
 
-.hero_section-two {
+/* .hero_section-two {
   display: flex;
   justify-content: center;
-}
+} */
 
 .hero_img {
   mask-image: linear-gradient(to top right, transparent, white);
-  width: 300px;
+  width: 500px;
 }
 
 @media screen and (min-width: 768px) {

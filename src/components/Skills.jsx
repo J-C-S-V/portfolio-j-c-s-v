@@ -41,18 +41,42 @@ export default function Skills() {
         <article className="skills__hard">
           <h2 className="skills__h2">Hard skills</h2>
           <ul className="skills__ul-hard">
-            <li><SiJavascript title="JavaScript" className="skills__li-hard" /></li>
-            <li><SiReact title="React" className="skills__li-hard" /></li>
-            <li><SiRedux title="Redux" className="skills__li-hard" /></li>
-            <li><SiJest title="Jest" className="skills__li-hard" /></li>
-            <li><SiWebpack title="Webpack" className="skills__li-hard" /></li>
-            <li><SiBootstrap title="Bootstrap" className="skills__li-hard" /></li>
-            <li><SiFigma title="Figma" className="skills__li-hard" /></li>
-            <li><SiSass title="Sass" className="skills__li-hard" /></li>
-            <li><SiHtml5 title="HTML5" className="skills__li-hard" /></li>
-            <li><SiCss3 title="CSS3" className="skills__li-hard" /></li>
-            <li><SiPostgresql title="PostgreSQL" className="skills__li-hard" /></li>
-            <li><SiWordpress title="WordPress" className="skills__li-hard" /></li>
+            <li>
+              <SiJavascript title="JavaScript" className="skills__li-hard" />
+            </li>
+            <li>
+              <SiReact title="React" className="skills__li-hard" />
+            </li>
+            <li>
+              <SiRedux title="Redux" className="skills__li-hard" />
+            </li>
+            <li>
+              <SiJest title="Jest" className="skills__li-hard" />
+            </li>
+            <li>
+              <SiWebpack title="Webpack" className="skills__li-hard" />
+            </li>
+            <li>
+              <SiBootstrap title="Bootstrap" className="skills__li-hard" />
+            </li>
+            <li>
+              <SiFigma title="Figma" className="skills__li-hard" />
+            </li>
+            <li>
+              <SiSass title="Sass" className="skills__li-hard" />
+            </li>
+            <li>
+              <SiHtml5 title="HTML5" className="skills__li-hard" />
+            </li>
+            <li>
+              <SiCss3 title="CSS3" className="skills__li-hard" />
+            </li>
+            <li>
+              <SiPostgresql title="PostgreSQL" className="skills__li-hard" />
+            </li>
+            <li>
+              <SiWordpress title="WordPress" className="skills__li-hard" />
+            </li>
           </ul>
         </article>
       </section>

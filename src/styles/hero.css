@@ -5,6 +5,7 @@
   height: 85vh;
   animation-name: fadein;
   animation-duration: 2s;
+  margin-bottom: 11rem;
 }
 
 .elements {
@@ -13,7 +14,6 @@
 
 .hero__description {
   font-size: 1rem;
-  line-height: 2rem;
 }
 
 .hero__name {
@@ -38,7 +38,7 @@
 
 .hero_img {
   mask-image: linear-gradient(to top right, transparent, white);
-  width: 500px;
+  width: 300px;
 }
 
 @media screen and (min-width: 768px) {
@@ -68,6 +68,7 @@
   .hero__description {
     margin: 3rem 0 0 0;
     text-align: left;
+    line-height: 2rem;
   }
 
   .h2 {
@@ -80,5 +81,6 @@
 
   .hero_img {
     padding-bottom: 4rem;
+    width: 500px;
   }
 }

@@ -5,6 +5,7 @@
   height: 85vh;
   animation-name: fadein;
   animation-duration: 2s;
+  margin-bottom: 11rem;
 }
 
 .elements {
@@ -33,11 +34,6 @@
 .h2__span {
   color: var(--blue2);
   padding: 3px;
-}
-
-.hero_section-two {
-  display: flex;
-  justify-content: center;
 }
 
 .hero_img {
@@ -72,6 +68,7 @@
   .hero__description {
     margin: 3rem 0 0 0;
     text-align: left;
+    line-height: 2rem;
   }
 
   .h2 {
@@ -84,5 +81,6 @@
 
   .hero_img {
     padding-bottom: 4rem;
+    width: 500px;
   }
 }

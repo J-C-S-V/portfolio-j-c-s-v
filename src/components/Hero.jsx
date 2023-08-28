@@ -20,9 +20,9 @@ export default function Hero() {
           </h2>
           <p className="hero__description elements">
             As a web developer, I am thrilled to showcase this portfolio and
-            demonstrate the skills that I&apos;ve acquired with the
-            folowing projects. If you like what you see and
-            have a project you need coded, don&apos;t hestiate to contact me. 😃✨💻
+            demonstrate the skills that I&apos;ve acquired with the folowing
+            projects. If you like what you see and have a project you need
+            coded, don&apos;t hestiate to contact me. 😃✨💻
           </p>
         </div>
         <aside className="hero_section-two">
